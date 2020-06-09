@@ -102,3 +102,16 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Build and Release Folders
+bin-debug/
+bin-release/
+public/
+node_modules/
+[Oo]bj/
+[Bb]in/
+# Other files and folders
+.settings/
+.cache/
+.DS_Store
+.vscode/
