@@ -32,8 +32,8 @@ const Layout = ({ children }) => {
           //padding: `0 1.0875rem 1.45rem`,
           alignItems:'center',
           display:'flex',
-          width:window.innerWidth,
-          height:window.innerHeight,
+          width:'100%',
+          height:'100%',
           backgroundColor:"#0d47a1",
         }}
       >
