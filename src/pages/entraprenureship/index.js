@@ -18,7 +18,7 @@ import LayoutPage from "../../components/layoutpages";
 import Image from "../../components/image";
 import SEO from "../../components/seo";
 import Seoimage from "../../components/images/home/seoimage";
-import Customerimage from "../../components/images/seo/customer";
+// import Customerimage from "../../components/images/seo/customer";
 import Entraimage from "../../components/images/home/entraimage";
 
 const EntraprenureshipPage = () => (
