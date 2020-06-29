@@ -10,11 +10,11 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import {Row, Container} from "react-bootstrap"
 import Header from "./header"
-import "./layout.css"
+import "./layoutpages.css"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
+    query SiteTitleQuery2 {
       site {
         siteMetadata {
           title
@@ -25,17 +25,13 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata.title} />
+      <Header siteTitle="Entraprenureship" />
       <div
-        style={{
-          margin: `0 auto`,
-          //padding: `0 1.0875rem 1.45rem`,
-          alignItems:'center',
-          display:'flex',
-          width:'100%',
-          height:'100%',
-          backgroundColor:"#0d47a1",
-        }}
+          style={{
+            margin: `0 auto`,
+            maxWidth: 1200,
+            padding: `0 1.0875rem 1.45rem`,
+          }}
       >
         <main>{children}</main>
         {/* <Container style={{marginBottom:"0 important"}}><Row><footer>
