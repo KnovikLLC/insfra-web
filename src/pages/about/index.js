@@ -157,7 +157,7 @@ const EntraprenureshipPage = () => (
 
     <CardDeck>
       <Jumbotron style={{paddingTop:'5px',backgroundColor: "#78C0EC"}}>
-        <h1 align="center">Check where Insfra is located at.</h1>
+        <h1 align="center">Check where Insfra ris located at.</h1>
         <br />
 
         <CardDeck>

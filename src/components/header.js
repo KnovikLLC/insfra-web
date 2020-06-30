@@ -8,7 +8,7 @@ const Header = () => (
       <img
         id="navbar-logo"
         alt="Insfra Logo"
-        src="http://insfra.com/assets/img/logo.png"
+        src="https://insfra.com/assets/img/logo.png"
         width="200px"
         height="50px"
         marginLeft="300px"
