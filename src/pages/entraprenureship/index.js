@@ -15,7 +15,7 @@ import {
   Jumbotron,
   Accordion,
 } from "react-bootstrap";
-import LayoutPage from "../../components/layoutEntra";
+import Layout from "../../components/layout";
 import Image from "../../components/image";
 import SEO from "../../components/seo";
 import Seoimage from "../../components/images/home/seoimage";
@@ -23,15 +23,12 @@ import One from "../../components/images/seo/1";
 import Two from "../../components/images/seo/2";
 import Three from "../../components/images/seo/3";
 
-// import SEOModel from "../seo/seoModel";
-// import ASOModel from "../seo/asoModel";
-// import SEOASOConsult from "./seo-aso-consultancyModel";
-// import LocalSEO from "./localSEOModel";
+
 
 const EntraprenureshipPage = () => (
-  <LayoutPage>
+  <Layout>
     <SEO title="Home" />
-
+<h1>Entraprenureship</h1>
     <Carousel>
       <Carousel.Item>
         <One />
@@ -120,9 +117,10 @@ const EntraprenureshipPage = () => (
     </CardDeck>
 
     <br />
+    <br />
 
     <CardDeck>
-      <Jumbotron>
+      <Jumbotron style={{paddingTop:'5px'}}>
         <h1 align="center">Partnership Companies/Startups</h1>
         <br />
         <CardDeck>
@@ -171,7 +169,7 @@ const EntraprenureshipPage = () => (
     </CardDeck>
 
     <CardDeck>
-      <Jumbotron>
+      <Jumbotron style={{paddingTop:'5px'}}>
         <h1 align="center">Why Us?</h1>
         <br />
 
@@ -228,7 +226,7 @@ const EntraprenureshipPage = () => (
 
     <br />
     <CardDeck>
-      <Jumbotron>
+      <Jumbotron style={{paddingTop:'5px'}}>
         <h1 align="center">Top Articles from SEO/ASO blog</h1>
         <br />
         <CardDeck>
@@ -282,7 +280,9 @@ const EntraprenureshipPage = () => (
           <Accordion.Toggle as={Button} variant="link" eventKey="0">
             What is SEO?
           </Accordion.Toggle>
+
         </Card.Header>
+        
         <Accordion.Collapse eventKey="0">
           <Card.Body>
             SEO is the process of growing the quality and the quantity of web
@@ -348,7 +348,7 @@ const EntraprenureshipPage = () => (
         </Accordion.Collapse>
       </Card>
     </Accordion>
-  </LayoutPage>
+  </Layout>
 );
 
 export default EntraprenureshipPage;

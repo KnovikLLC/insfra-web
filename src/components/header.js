@@ -1,42 +1,47 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
-import React from "react"
+import PropTypes from "prop-types";
+import React from "react";
+import { Button, Nav, Navbar } from "react-bootstrap";
 
-const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
-    </div>
-  </header>
-)
+const Header = () => (
+  <Navbar bg="dark" variant="dark" expand="lg" sticky="top">
+    <Navbar.Brand href="/">
+      <img
+        id="navbar-logo"
+        alt="Insfra Logo"
+        src="https://insfra.com/assets/img/logo.png"
+        width="200px"
+        height="50px"
+        marginLeft="300px"
+        
+        className="d-inline-block"
+      />
+     
+    </Navbar.Brand>
+    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+    <Navbar.Collapse id="basic-navbar-nav">
+      <Nav className="mr-auto" style={{marginLeft:'250px', fontSize:'30px'}}>
+       
+        <Nav.Link  href="/">Home</Nav.Link>
+        <Nav.Link style={{marginLeft:'30px'}} href="/about/">About Us</Nav.Link>
+        <Nav.Link style={{marginLeft:'30px'}} href="/ourteam/">Our Team</Nav.Link>
+        <Nav.Link style={{marginLeft:'30px'}} href="/seo">SEO/ASO</Nav.Link>
+        <Nav.Link style={{marginLeft:'30px'}} href="/entraprenureship/">Entraprenureship</Nav.Link>
+        <Nav.Link style={{marginLeft:'30px'}} href="/careers/">Careers</Nav.Link>
+        <Nav.Link style={{marginLeft:'30px'}} href="/contact/">Contact Us</Nav.Link>
+      </Nav>
+      {/* <Button href="/explore/" variant="success">
+        Explore Website
+      </Button> */}
+    </Navbar.Collapse>
+  </Navbar>
+);
 
 Header.propTypes = {
   siteTitle: PropTypes.string,
-}
+};
 
 Header.defaultProps = {
-  siteTitle: `xfxff`,
-}
+  siteTitle: ``,
+};
 
-export default Header
+export default Header;

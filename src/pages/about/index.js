@@ -15,8 +15,7 @@ import {
   Jumbotron,
   Accordion,
 } from "react-bootstrap";
-//import LayoutPage from "../../components/layoutpages";
-import Layout from "../../components/layout"
+import Layout from "../../components/layout";
 import Image from "../../components/image";
 import SEO from "../../components/seo";
 import Seoimage from "../../components/images/home/seoimage";
@@ -24,202 +23,142 @@ import One from "../../components/images/seo/1";
 import Two from "../../components/images/seo/2";
 import Three from "../../components/images/seo/3";
 
-import SEOModel from "../seo/seoModel";
-import ASOModel from "../seo/asoModel";
-import SEOASOConsult from "./seo-aso-consultancyModel";
-import LocalSEO from "./localSEOModel";
 
-const SeoPage = () => (
+
+const EntraprenureshipPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>SEO/ASO</h1>{" "}
-    <Carousel>
-      <Carousel.Item>
-        <One />
-
-        <Carousel.Caption></Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <Two />
-
-        <Carousel.Caption></Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <Three />
-
-        <Carousel.Caption></Carousel.Caption>
-      </Carousel.Item>
-    </Carousel>
-    <br />
-    <p>
-      Get expert Search Engine Optimization and App Store Optimization services
-      for your business. We cater from sole proprietorship to corporate to get
-      the website/pages ranked in searches and convert for sales
-    </p>
+<h1>About Insfra</h1>
+    
+    <br/>
+    
 
     <br />
     <CardGroup>
       <Card>
         <Card.Body>
           <Card.Title>
-            <h2>Search Engine Optimization</h2>
-           
+            <h1>Entrepreneurship</h1>
           </Card.Title>
-          {/* <div><iframe title="What is new in TweakMo?" src="https://www.youtube.com/embed/yqRJZ7SeJbM?rel=0" frameBorder='0' allowFullScreen width='100%' height='250px'></iframe></div> */}
-          
-          <iframe width="791" height="445" src="https://www.youtube.com/embed/WP8fv5HcN4U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" width="100%" height="300px"allowfullscreen></iframe>
           <Card.Text>
-            We will make your website, blog, product or service ranked in online
-            environments. Therefore it reaches a broad audience in your
-            segmented market and increases conversions.
+           
           </Card.Text>
         </Card.Body>
       </Card>
       <Card>
         <Card.Body>
           <Card.Title>
-            <h2>App Store Optimization</h2>{" "}
-            
+            <h1>Freelancing</h1>{" "}
           </Card.Title>
-          
-          <iframe width="791" height="445" src="https://www.youtube.com/embed/nKt8njedt3g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" width="100%" height="300px" paddingTop="10px" allowfullscreen></iframe>
-          <Card.Text>
-            We will naturally get your app to the most downloaded app list of
-            App Store and PlayStore through App Store Optimization with which
-            most customers convert for sales
-          </Card.Text>
+          <Card.Text></Card.Text>
         </Card.Body>
       </Card>
     </CardGroup>
     <br />
     <br />
-    <h2>Small & Medium Business Solutions</h2>
+    <h2>SERVICES FOR ENTREPRENEURS</h2>
 
     <br />
     <CardDeck>
       <Card>
         <Card.Header style={{ backgroundColor: "#7B5CC1", color: "#F5F3F9" }}>
-          SEO Getting ranked in Search Results?
+          Mentoring
         </Card.Header>
 
         <Card.Body>
           <Card.Text>
-            <Award color="royalblue" size={30} /> Market research
-            <br />
-            <br />
-            <Award color="royalblue" size={30} /> On page optimization
-            <br />
-            <br />
-            <Award color="royalblue" size={30} /> Off page optimization
-            <br />
-            <br />
-            <SEOModel />
+            Guiding and grooming yourself to see your business become profitable
+            and established in the market
           </Card.Text>
         </Card.Body>
-
-        <Card.Footer>
-          <Button variant="primary" size="lg" block>
-            Get a quote
-          </Button>
-        </Card.Footer>
       </Card>
 
       <Card>
         <Card.Header style={{ backgroundColor: "#7B5CC1", color: "#F5F3F9" }}>
-          ASO Getting ranked in App Store
+          Incubation
         </Card.Header>
         <Card.Body>
           <Card.Text>
-            <Award color="royalblue" size={30} /> App Store Optimization
-            <br />
-            <br />
-            <Award color="royalblue" size={30} /> Play Store Optimization
-            <br />
-            <br />
-            <Award color="royalblue" size={30} /> Off page optimization
-            <br />
-            <br />
-            <ASOModel />
+            We provide you work space and all other facilities to grow under the
+            roof of Insfra
           </Card.Text>
         </Card.Body>
-
-        <Card.Footer>
-          <Button variant="primary" size="lg" block>
-            Get a quote
-          </Button>
-        </Card.Footer>
       </Card>
       <Card>
         <Card.Header style={{ backgroundColor: "#7B5CC1", color: "#F5F3F9" }}>
-          SEO/ASO Consultancy - How to Optimize
+          Webinars / Trainings
         </Card.Header>
         <Card.Body>
           <Card.Text>
-            <Award color="royalblue" size={30} /> App Store Optimization
-            <br />
-            <br />
-            <Award color="royalblue" size={30} /> Play Store Optimization
-            <br />
-            <br />
-            <Award color="royalblue" size={30} /> Off page optimization
-            <br />
-            <br />
-            <SEOASOConsult />
+            We delivers you online webinars/trainings to those who have
+            determination to be entrepreneurs
           </Card.Text>
         </Card.Body>
-
-        <Card.Footer>
-          <Button variant="primary" size="lg" block>
-            Get a quote
-          </Button>
-        </Card.Footer>
-      </Card>
-
-      <Card>
-        <Card.Header style={{ backgroundColor: "#7B5CC1", color: "#F5F3F9" }}>
-        Local SEO Services
-        </Card.Header>
-        <Card.Body>
-          <Card.Text>
-            <Award color="royalblue" size={30} /> App Store Optimization
-            <br />
-            <br />
-            <Award color="royalblue" size={30} /> Play Store Optimization
-            <br />
-            <br />
-            <Award color="royalblue" size={30} /> Off page optimization
-            <br />
-            <br />
-           <LocalSEO/>
-          </Card.Text>
-        </Card.Body>
-
-        <Card.Footer>
-          <Button variant="primary" size="lg" block>
-            Get a quote
-          </Button>
-        </Card.Footer>
       </Card>
     </CardDeck>
 
-  
-
-    
+    <br />
     <br />
 
     <CardDeck>
-      <Jumbotron style={{paddingTop:'5px'}}>
-        <h1 align="center">Why Choose Us?</h1>
+      <Jumbotron style={{paddingTop:'5px',backgroundColor: "#78C0EC"}}>
+        <h1 align="center">Meet our key team members</h1>
         <br />
-        <p>
-          {" "}
-          We believe in conversions more than the impressions. Therefore, we
-          analyze customers, their search intent, psychological needs and their
-          search behaviors and do optimization in Search Engines, AppStore and
-          PlayStore, Social Media while ensuring that your brands are reached to
-          the right audience though sales funnel strategies.
-        </p>
-        <Card.Text></Card.Text>
+        <CardDeck>
+          <Card>
+            <Card.Img
+              variant="top"
+              src="https://insfra.com/assets/img/team/kosala.jpg" />
+            <Card.Body>
+              <Card.Title>Kosala Sandaruwan</Card.Title>
+              <Card.Text>
+              CEO, Co-Founder
+              </Card.Text>
+            </Card.Body>
+          </Card>
+          <Card>
+            <Card.Img
+              variant="top"
+              src="https://insfra.com/assets/img/team/Madus.jpg"/>
+            <Card.Body>
+              <Card.Title>Madusanka Premaratne</Card.Title>
+              <Card.Text>
+                COO,CO-Founder
+              </Card.Text>
+            </Card.Body>
+          </Card>
+          <Card>
+            <Card.Img
+              variant="top"
+              src="https://insfra.com/assets/img/team/sampath.jpg"/>
+            <Card.Body>
+              <Card.Title>Sampath Thilakarathna</Card.Title>
+              <Card.Text>
+              Chief Information Officer
+              </Card.Text>
+            </Card.Body>
+          </Card>
+          <Card>
+            <Card.Img
+              variant="top"
+              src="https://insfra.com/assets/img/team/Radikaa.jpg"/>
+            <Card.Body>
+              <Card.Title>Radika Thilakarathna</Card.Title>
+              <Card.Text>
+              Chief Marketing Officer
+              </Card.Text>
+            </Card.Body>
+          </Card>
+        </CardDeck>
+        
+        
+      </Jumbotron>
+    </CardDeck>
+
+    <CardDeck>
+      <Jumbotron style={{paddingTop:'5px',backgroundColor: "#78C0EC"}}>
+        <h1 align="center">Check where Insfra ris located at.</h1>
+        <br />
 
         <CardDeck>
           <Card>
@@ -228,7 +167,7 @@ const SeoPage = () => (
               src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22286%22%20height%3D%22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20286%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_17292fffbf2%20text%20%7B%20fill%3A%23999%3Bfont-weight%3Anormal%3Bfont-family%3A-apple-system%2CBlinkMacSystemFont%2C%26quot%3BSegoe%20UI%26quot%3B%2CRoboto%2C%26quot%3BHelvetica%20Neue%26quot%3B%2CArial%2C%26quot%3BNoto%20Sans%26quot%3B%2Csans-serif%2C%26quot%3BApple%20Color%20Emoji%26quot%3B%2C%26quot%3BSegoe%20UI%20Emoji%26quot%3B%2C%26quot%3BSegoe%20UI%20Symbol%26quot%3B%2C%26quot%3BNoto%20Color%20Emoji%26quot%3B%2C%20monospace%3Bfont-size%3A14pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_17292fffbf2%22%3E%3Crect%20width%3D%22286%22%20height%3D%22180%22%20fill%3D%22%23373940%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22106.390625%22%20y%3D%2296.3%22%3E286x180%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
             />
             <Card.Body>
-              <Card.Title>10+ Experience</Card.Title>
+              <Card.Title>11+ years of professional experience</Card.Title>
               <Card.Text>
                 This is a wider card with supporting text below as a natural
                 lead-in to additional content. This content is a little bit
@@ -242,20 +181,7 @@ const SeoPage = () => (
               src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22286%22%20height%3D%22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20286%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_17292fffbf2%20text%20%7B%20fill%3A%23999%3Bfont-weight%3Anormal%3Bfont-family%3A-apple-system%2CBlinkMacSystemFont%2C%26quot%3BSegoe%20UI%26quot%3B%2CRoboto%2C%26quot%3BHelvetica%20Neue%26quot%3B%2CArial%2C%26quot%3BNoto%20Sans%26quot%3B%2Csans-serif%2C%26quot%3BApple%20Color%20Emoji%26quot%3B%2C%26quot%3BSegoe%20UI%20Emoji%26quot%3B%2C%26quot%3BSegoe%20UI%20Symbol%26quot%3B%2C%26quot%3BNoto%20Color%20Emoji%26quot%3B%2C%20monospace%3Bfont-size%3A14pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_17292fffbf2%22%3E%3Crect%20width%3D%22286%22%20height%3D%22180%22%20fill%3D%22%23373940%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22106.390625%22%20y%3D%2296.3%22%3E286x180%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
             />
             <Card.Body>
-              <Card.Title>SEO Expertise</Card.Title>
-              <Card.Text>
-                This card has supporting text below as a natural lead-in to
-                additional content.{" "}
-              </Card.Text>
-            </Card.Body>
-          </Card>
-          <Card>
-            <Card.Img
-              variant="top"
-              src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22286%22%20height%3D%22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20286%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_17292fffbf2%20text%20%7B%20fill%3A%23999%3Bfont-weight%3Anormal%3Bfont-family%3A-apple-system%2CBlinkMacSystemFont%2C%26quot%3BSegoe%20UI%26quot%3B%2CRoboto%2C%26quot%3BHelvetica%20Neue%26quot%3B%2CArial%2C%26quot%3BNoto%20Sans%26quot%3B%2Csans-serif%2C%26quot%3BApple%20Color%20Emoji%26quot%3B%2C%26quot%3BSegoe%20UI%20Emoji%26quot%3B%2C%26quot%3BSegoe%20UI%20Symbol%26quot%3B%2C%26quot%3BNoto%20Color%20Emoji%26quot%3B%2C%20monospace%3Bfont-size%3A14pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_17292fffbf2%22%3E%3Crect%20width%3D%22286%22%20height%3D%22180%22%20fill%3D%22%23373940%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22106.390625%22%20y%3D%2296.3%22%3E286x180%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
-            />
-            <Card.Body>
-              <Card.Title>ASO Expertise</Card.Title>
+              <Card.Title>Expert Professionals </Card.Title>
               <Card.Text>
                 This card has supporting text below as a natural lead-in to
                 additional content.{" "}
@@ -276,12 +202,18 @@ const SeoPage = () => (
             </Card.Body>
           </Card>
         </CardDeck>
+        <br />
+        <p>
+          We are happy parents of newly born Priwoo and Kodex. The ones who took
+          the initiative to come to us with a new idea and became entrepreneurs
+          under our roof.
+        </p>
       </Jumbotron>
     </CardDeck>
 
     <br />
     <CardDeck>
-      <Jumbotron style={{paddingTop:'5px'}}>
+      <Jumbotron>
         <h1 align="center">Top Articles from SEO/ASO blog</h1>
         <br />
         <CardDeck>
@@ -335,7 +267,9 @@ const SeoPage = () => (
           <Accordion.Toggle as={Button} variant="link" eventKey="0">
             What is SEO?
           </Accordion.Toggle>
+
         </Card.Header>
+        
         <Accordion.Collapse eventKey="0">
           <Card.Body>
             SEO is the process of growing the quality and the quantity of web
@@ -404,4 +338,4 @@ const SeoPage = () => (
   </Layout>
 );
 
-export default SeoPage;
+export default EntraprenureshipPage;
