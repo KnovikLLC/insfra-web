@@ -23,15 +23,12 @@ import One from "../../components/images/seo/1";
 import Two from "../../components/images/seo/2";
 import Three from "../../components/images/seo/3";
 
-
-
 const EntraprenureshipPage = () => (
   <Layout>
     <SEO title="Home" />
-<h1>About Insfra</h1>
-    
-    <br/>
-    
+    <h1>About Insfra</h1>
+
+    <br />
 
     <br />
     <CardGroup>
@@ -40,9 +37,7 @@ const EntraprenureshipPage = () => (
           <Card.Title>
             <h1>Entrepreneurship</h1>
           </Card.Title>
-          <Card.Text>
-           
-          </Card.Text>
+          <Card.Text></Card.Text>
         </Card.Body>
       </Card>
       <Card>
@@ -101,63 +96,59 @@ const EntraprenureshipPage = () => (
     <br />
 
     <CardDeck>
-      <Jumbotron style={{paddingTop:'5px',backgroundColor: "#78C0EC"}}>
+      <Jumbotron style={{ paddingTop: "5px", backgroundColor: "#78C0EC" }}>
         <h1 align="center">Meet our key team members</h1>
         <br />
         <CardDeck>
           <Card>
             <Card.Img
               variant="top"
-              src="https://insfra.com/assets/img/team/kosala.jpg" />
+              src="https://insfra.com/assets/img/team/kosala.jpg"
+            />
             <Card.Body>
               <Card.Title>Kosala Sandaruwan</Card.Title>
-              <Card.Text>
-              CEO, Co-Founder
-              </Card.Text>
+              <Card.Text>CEO, Co-Founder</Card.Text>
             </Card.Body>
           </Card>
           <Card>
             <Card.Img
               variant="top"
-              src="https://insfra.com/assets/img/team/Madus.jpg"/>
+              src="https://insfra.com/assets/img/team/Madus.jpg"
+            />
             <Card.Body>
               <Card.Title>Madusanka Premaratne</Card.Title>
-              <Card.Text>
-                COO,CO-Founder
-              </Card.Text>
+              <Card.Text>COO,CO-Founder</Card.Text>
             </Card.Body>
           </Card>
           <Card>
             <Card.Img
               variant="top"
-              src="https://insfra.com/assets/img/team/sampath.jpg"/>
+              src="https://insfra.com/assets/img/team/sampath.jpg"
+            />
             <Card.Body>
               <Card.Title>Sampath Thilakarathna</Card.Title>
-              <Card.Text>
-              Chief Information Officer
-              </Card.Text>
+              <Card.Text>Chief Information Officer</Card.Text>
             </Card.Body>
           </Card>
           <Card>
             <Card.Img
               variant="top"
-              src="https://insfra.com/assets/img/team/Radikaa.jpg"/>
+              src="https://insfra.com/assets/img/team/Radikaa.jpg"
+            />
             <Card.Body>
               <Card.Title>Radika Thilakarathna</Card.Title>
-              <Card.Text>
-              Chief Marketing Officer
-              </Card.Text>
+              <Card.Text>Chief Marketing Officer</Card.Text>
             </Card.Body>
           </Card>
         </CardDeck>
-        
-        
       </Jumbotron>
     </CardDeck>
 
     <CardDeck>
-      <Jumbotron style={{paddingTop:'5px',backgroundColor: "#78C0EC"}}>
-        <h1 align="center">Check where Insfra ris located at.</h1>
+      <Jumbotron
+        style={{ paddingTop: "5px", backgroundColor: "blue-gradient" }}
+      >
+        <h1 align="center">Check where Insfra is located at.</h1>
         <br />
 
         <CardDeck>
@@ -267,16 +258,10 @@ const EntraprenureshipPage = () => (
           <Accordion.Toggle as={Button} variant="link" eventKey="0">
             What is SEO?
           </Accordion.Toggle>
-
         </Card.Header>
-        
+
         <Accordion.Collapse eventKey="0">
-          <Card.Body>
-            SEO is the process of growing the quality and the quantity of web
-            traffic by increasing the visibility of a website/web page of a web
-            search engine. This mainly involves helping a website/page getting
-            at the top of the search engine results page.
-          </Card.Body>
+          <Card.Body></Card.Body>
         </Accordion.Collapse>
       </Card>
       <Card>

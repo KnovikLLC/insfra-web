@@ -11,23 +11,36 @@ const Header = () => (
         src="https://insfra.com/assets/img/logo.png"
         width="200px"
         height="50px"
-        marginLeft="300px"
-        
+       
         className="d-inline-block"
       />
-     
     </Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
-      <Nav className="mr-auto" style={{marginLeft:'250px', fontSize:'30px'}}>
-       
-        <Nav.Link  href="/">Home</Nav.Link>
-        <Nav.Link style={{marginLeft:'30px'}} href="/about/">About Us</Nav.Link>
-        <Nav.Link style={{marginLeft:'30px'}} href="/ourteam/">Our Team</Nav.Link>
-        <Nav.Link style={{marginLeft:'30px'}} href="/seo">SEO/ASO</Nav.Link>
-        <Nav.Link style={{marginLeft:'30px'}} href="/entraprenureship/">Entraprenureship</Nav.Link>
-        <Nav.Link style={{marginLeft:'30px'}} href="/careers/">Careers</Nav.Link>
-        <Nav.Link style={{marginLeft:'30px'}} href="/contact/">Contact Us</Nav.Link>
+      <Nav
+        className="mr-auto"
+        style={{ fontSize: "25px" }}
+      >
+        <Nav.Link href="/">Home</Nav.Link>
+
+        <Nav.Link style={{  }} href="/seo">
+          SEO/ASO
+        </Nav.Link>
+        <Nav.Link style={{  }} href="/entraprenureship/">
+          Entraprenureship
+        </Nav.Link>
+        <Nav.Link style={{  }} href="/ourteam/">
+          Our Team
+        </Nav.Link>
+        <Nav.Link style={{  }} href="/careers/">
+          Careers
+        </Nav.Link>
+        <Nav.Link style={{  }} href="/about/">
+          About Us
+        </Nav.Link>
+        <Nav.Link style={{  }} href="/contact/">
+          Contact Us
+        </Nav.Link>
       </Nav>
       {/* <Button href="/explore/" variant="success">
         Explore Website
