@@ -25,7 +25,7 @@ const useStyles = makeStyles((theme) => ({
     fontWeight: "600",
   },
   btnClose: {
-    marginLeft: "100px",
+    marginLeft: "110px",
   },
   btnGetQuote: {
     marginLeft: "20px",

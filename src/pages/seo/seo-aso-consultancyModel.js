@@ -21,11 +21,11 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: "#dee2e6",
   },
   title: {
-    backgroundColor: "#dee2e6",
+    backgroundColor: "#86BEF6",
     fontWeight: "600",
   },
   btnClose: {
-    marginLeft: "20px",
+    marginLeft: "30px",
   },
   btnGetQuote: {
     marginLeft: "20px",

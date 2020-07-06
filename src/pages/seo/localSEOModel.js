@@ -25,7 +25,7 @@ const useStyles = makeStyles((theme) => ({
     fontWeight: "600",
   },
   btnClose: {
-    marginLeft: "20px",
+    marginLeft: "250px",
   },
   btnGetQuote: {
     marginLeft: "20px",
@@ -70,10 +70,10 @@ export default function ScrollDialog() {
         aria-describedby="scroll-dialog-description"
       >
         <DialogTitle id="scroll-dialog-title" className={classes.title}>
-        SEO/ASO Consultancy - How to Optimize
+        Local SEO Services
 
           <Button onClick={handleClose} className={classes.btnClose}>
-            <CloseIcon />
+            <CloseIcon/>
           </Button>
         </DialogTitle>
         <DialogContent dividers={scroll === "paper"}>

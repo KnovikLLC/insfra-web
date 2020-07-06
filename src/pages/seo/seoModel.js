@@ -89,10 +89,10 @@ export default function ScrollDialog() {
             <br />
             
               <ul>
-                <li>Market Trend Analysis</li>
-                <li>Customer analysis</li>
+                
+                <li>Market analysis</li>
                 <li>Competitor analysis</li>
-                <li>Customer segmentation, Targeting and positioning</li>
+                
                 <li>Keyword analysis</li>
                 <li>Filling keyword gaps</li>
                 <li>Optimized navigation through sales funnel</li>
