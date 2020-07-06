@@ -129,14 +129,34 @@ export default function ScrollDialog() {
                 <li>Brand Mentioning </li>
                 <li>Optimized and Effective social profile descriptions</li>
               </ul>
+              <Paper className={classes.paper}>WIX /Wordpress SEO</Paper>
+            
+              <br />
+              <ul>
+                <li>Compelling Headings and Meta tags</li>
+                <li>Keyword research</li>
+                <li>Keyword Optimization (On Page)</li>
+                <li>Social Media Channel Setup</li>
+                <li>Google Analytics integration</li>
+                <li>Google webmaster tool integration</li>
+                <li>Rent Server Space </li>
+              </ul>
+              
             
           </DialogContentText>
         </DialogContent>
         <DialogActions >
          
-          <Button onClick={handleClose} className={classes.btnGetQuote} >
+        <div class="card-body gradient-buttons">
+          <button
+            type="button"
+            class="btn btn-primary"
+            style={{ marginLeft: "400px", marginright: "auto" }}
+          >
+            {" "}
             Get a quote
-          </Button>
+          </button>
+        </div>
         </DialogActions>
       </Dialog>
     </div>

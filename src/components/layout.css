@@ -54,6 +54,7 @@ a {
 a:active,
 a:hover {
   outline-width: 0;
+  color: aqua;
 }
 
 abbr[title] {
@@ -712,6 +713,7 @@ pre tt:after {
   background-color: #343a40!important;
   color: #fff;
   bottom: 0em;
+  margin-bottom: 0em;
 }
 
 .commonFooter div {
@@ -787,3 +789,13 @@ div.list-group-item {
 .embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } 
 .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
 
+.gradient-buttons .btn {
+  background-image: linear-gradient(to bottom, rgba(255,255,255,0.5), rgba(255,255,255,0.2) 49%, rgba(0,0,0,0.15) 51%, rgba(0,0,0,0.05));
+  background-repeat: repeat-x;
+
+}
+
+.card {
+margin: 10px;
+box-shadow: 0 5px 10px -2.5px;
+}

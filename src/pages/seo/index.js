@@ -1,6 +1,13 @@
 import React from "react";
 import { Link } from "gatsby";
-import { ArrowRightCircle, Award } from "react-bootstrap-icons";
+import {
+  ArrowRightCircle,
+  Award,
+  CheckAll,
+  Check2Circle,
+  CheckSquare
+} from "react-bootstrap-icons";
+
 
 import {
   Card,
@@ -14,15 +21,29 @@ import {
   Alert,
   Jumbotron,
   Accordion,
+  Image,
 } from "react-bootstrap";
 //import LayoutPage from "../../components/layoutpages";
-import Layout from "../../components/layout"
-import Image from "../../components/image";
+import Layout from "../../components/layout";
+
 import SEO from "../../components/seo";
 import Seoimage from "../../components/images/home/seoimage";
 import One from "../../components/images/seo/1";
 import Two from "../../components/images/seo/2";
 import Three from "../../components/images/seo/3";
+import Experience from "../../components/images/seo/experience";
+import SEOExpertise from "../../components/images/seo/SEOexpertise";
+import ASOExpertise from "../../components/images/seo/ASOexpertise";
+import ProvenTrackRecord from "../../components/images/seo/provenTrackRecord";
+
+import SEOCard from "../../components/images/seo/SEOservice";
+import ASOCard from "../../components/images/seo/ASOservice";
+import SEOASOCard from "../../components/images/seo/SEOASOservice";
+import LocalSEOCard from "../../components/images/seo/localSEO";
+import RankSEO from "../../components/images/seo/rankseo";
+import RankASO from "../../components/images/seo/rankaso";
+import RankSEOASO from "../../components/images/seo/rankseoaso";
+import RankLocal from "../../components/images/seo/ranklocal";
 
 import SEOModel from "../seo/seoModel";
 import ASOModel from "../seo/asoModel";
@@ -56,18 +77,25 @@ const SeoPage = () => (
       for your business. We cater from sole proprietorship to corporate to get
       the website/pages ranked in searches and convert for sales
     </p>
-
     <br />
     <CardGroup>
       <Card>
         <Card.Body>
           <Card.Title>
             <h2>Search Engine Optimization</h2>
-           
           </Card.Title>
           {/* <div><iframe title="What is new in TweakMo?" src="https://www.youtube.com/embed/yqRJZ7SeJbM?rel=0" frameBorder='0' allowFullScreen width='100%' height='250px'></iframe></div> */}
-          
-          <iframe width="791" height="445" src="https://www.youtube.com/embed/WP8fv5HcN4U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" width="100%" height="300px"allowfullscreen></iframe>
+
+          <iframe
+            width="791"
+            height="445"
+            src="https://www.youtube.com/embed/WP8fv5HcN4U"
+            frameBorder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            width="100%"
+            height="300px"
+            allowFullScreen
+          ></iframe>
           <Card.Text>
             We will make your website, blog, product or service ranked in online
             environments. Therefore it reaches a broad audience in your
@@ -79,10 +107,18 @@ const SeoPage = () => (
         <Card.Body>
           <Card.Title>
             <h2>App Store Optimization</h2>{" "}
-            
           </Card.Title>
-          
-          <iframe width="791" height="445" src="https://www.youtube.com/embed/nKt8njedt3g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" width="100%" height="300px" paddingTop="10px" allowfullscreen></iframe>
+
+          <iframe
+            width="791"
+            height="445"
+            src="https://www.youtube.com/embed/nKt8njedt3g"
+            frameBorder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            width="100%"
+            height="300px"
+            allowFullScreen
+          ></iframe>
           <Card.Text>
             We will naturally get your app to the most downloaded app list of
             App Store and PlayStore through App Store Optimization with which
@@ -94,121 +130,162 @@ const SeoPage = () => (
     <br />
     <br />
     <h2>Small & Medium Business Solutions</h2>
-
     <br />
     <CardDeck>
       <Card>
-        <Card.Header style={{ backgroundColor: "#7B5CC1", color: "#F5F3F9" }}>
+        {/* <Card.Header style={{ backgroundColor: "#7B5CC1", color: "#F5F3F9" }}>
           SEO Getting ranked in Search Results?
-        </Card.Header>
+        </Card.Header> */}
+        <SEOCard />
 
         <Card.Body>
+          <Row>
+            <Col>
+              <RankSEO />
+            </Col>
+          </Row>
+
           <Card.Text>
-            <Award color="royalblue" size={30} /> Market research
+            <br />
+            <Check2Circle color="royalblue" size={30} /> Market research
             <br />
             <br />
-            <Award color="royalblue" size={30} /> On page optimization
+            <Check2Circle color="royalblue" size={30} /> On page optimization
             <br />
             <br />
-            <Award color="royalblue" size={30} /> Off page optimization
+            <Check2Circle color="royalblue" size={30} /> Off page optimization
             <br />
-            <br />
-            <SEOModel />
           </Card.Text>
+          <SEOModel />
         </Card.Body>
 
-        <Card.Footer>
-          <Button variant="primary" size="lg" block>
+        <div class="card-body gradient-buttons">
+          <button
+            type="button"
+            class="btn btn-primary"
+            style={{ marginLeft: "45px", marginright: "auto" }}
+          >
+            {" "}
             Get a quote
-          </Button>
-        </Card.Footer>
+          </button>
+        </div>
       </Card>
 
       <Card>
-        <Card.Header style={{ backgroundColor: "#7B5CC1", color: "#F5F3F9" }}>
+        {/* <Card.Header style={{ backgroundColor: "#7B5CC1", color: "#F5F3F9" }}>
           ASO Getting ranked in App Store
-        </Card.Header>
+        </Card.Header> */}
+        <ASOCard />
         <Card.Body>
+          <Row>
+            <Col>
+              <RankASO />
+            </Col>
+          </Row>
           <Card.Text>
-            <Award color="royalblue" size={30} /> App Store Optimization
+            <br />
+            <Check2Circle color="royalblue" size={30}/> App Store Optimization
             <br />
             <br />
-            <Award color="royalblue" size={30} /> Play Store Optimization
+            <Check2Circle color="royalblue" size={30}/> PlayStore Optimization
             <br />
             <br />
-            <Award color="royalblue" size={30} /> Off page optimization
+            <Check2Circle color="royalblue" size={30}/> Off page optimization
             <br />
-            <br />
-            <ASOModel />
+            
           </Card.Text>
+          <ASOModel />
         </Card.Body>
 
-        <Card.Footer>
-          <Button variant="primary" size="lg" block>
+        <div class="card-body gradient-buttons">
+          <button
+            type="button"
+            class="btn btn-primary"
+            style={{ marginLeft: "50px", marginright: "auto" }}
+          >
+            {" "}
             Get a quote
-          </Button>
-        </Card.Footer>
+          </button>
+        </div>
       </Card>
       <Card>
-        <Card.Header style={{ backgroundColor: "#7B5CC1", color: "#F5F3F9" }}>
+        {/* <Card.Header style={{ backgroundColor: "#7B5CC1", color: "#F5F3F9" }}>
           SEO/ASO Consultancy - How to Optimize
-        </Card.Header>
+        </Card.Header> */}
+        <SEOASOCard />
         <Card.Body>
+          <Row>
+            <Col>
+              <RankSEOASO />
+            </Col>
+          </Row>
           <Card.Text>
-            <Award color="royalblue" size={30} /> App Store Optimization
-            <br />
-            <br />
-            <Award color="royalblue" size={30} /> Play Store Optimization
-            <br />
-            <br />
-            <Award color="royalblue" size={30} /> Off page optimization
-            <br />
-            <br />
-            <SEOASOConsult />
+          <br />
+          <Check2Circle color="royalblue" size={30}/> Audit,Revealing issues
+          <br />
+          <br />
+          <Check2Circle color="royalblue" size={30}/> SEO, SEM & ASO
+          <br />
+          <br />
+          <Check2Circle color="royalblue" size={30}/> Marketing Strategy
+          <br/>
           </Card.Text>
+          <SEOASOConsult />
         </Card.Body>
 
-        <Card.Footer>
-          <Button variant="primary" size="lg" block>
+        <div class="card-body gradient-buttons">
+          <button
+            type="button"
+            class="btn btn-primary"
+            style={{ marginLeft: "50px", marginright: "auto" }}
+          >
+            {" "}
             Get a quote
-          </Button>
-        </Card.Footer>
+          </button>
+        </div>
       </Card>
 
       <Card>
-        <Card.Header style={{ backgroundColor: "#7B5CC1", color: "#F5F3F9" }}>
-        Local SEO Services
-        </Card.Header>
+        {/* <Card.Header style={{ backgroundColor: "#7B5CC1", color: "#F5F3F9" }}>
+          Local SEO Services
+        </Card.Header> */}
+        <LocalSEOCard />
         <Card.Body>
+          <Row>
+            <Col>
+              <RankLocal />
+            </Col>
+          </Row>
           <Card.Text>
-            <Award color="royalblue" size={30} /> App Store Optimization
-            <br />
-            <br />
-            <Award color="royalblue" size={30} /> Play Store Optimization
-            <br />
-            <br />
-            <Award color="royalblue" size={30} /> Off page optimization
-            <br />
-            <br />
-           <LocalSEO/>
+          <br />
+          <Check2Circle color="royalblue" size={30}/> App Store Optimization
+          <br />
+          <br />
+          <Check2Circle color="royalblue" size={30}/> PlayStore Optimization
+          <br />
+          <br />
+          <Check2Circle color="royalblue" size={30}/> Off page optimization
+          <br/>
           </Card.Text>
+          <LocalSEO/>
         </Card.Body>
 
-        <Card.Footer>
-          <Button variant="primary" size="lg" block>
+        <div class="card-body gradient-buttons">
+          <button
+            type="button"
+            class="btn btn-primary"
+            style={{ marginLeft: "50px", marginright: "auto" }}
+          >
+            {" "}
             Get a quote
-          </Button>
-        </Card.Footer>
+          </button>
+        </div>
       </Card>
     </CardDeck>
-
-  
-
-    
     <br />
-
+    <br />
     <CardDeck>
-      <Jumbotron style={{paddingTop:'5px'}}>
+      <Jumbotron style={{ paddingTop: "5px" }}>
         <h1 align="center">Why Choose Us?</h1>
         <br />
         <p>
@@ -219,69 +296,54 @@ const SeoPage = () => (
           PlayStore, Social Media while ensuring that your brands are reached to
           the right audience though sales funnel strategies.
         </p>
-        <Card.Text></Card.Text>
 
         <CardDeck>
           <Card>
-            <Card.Img
-              variant="top"
-              src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22286%22%20height%3D%22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20286%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_17292fffbf2%20text%20%7B%20fill%3A%23999%3Bfont-weight%3Anormal%3Bfont-family%3A-apple-system%2CBlinkMacSystemFont%2C%26quot%3BSegoe%20UI%26quot%3B%2CRoboto%2C%26quot%3BHelvetica%20Neue%26quot%3B%2CArial%2C%26quot%3BNoto%20Sans%26quot%3B%2Csans-serif%2C%26quot%3BApple%20Color%20Emoji%26quot%3B%2C%26quot%3BSegoe%20UI%20Emoji%26quot%3B%2C%26quot%3BSegoe%20UI%20Symbol%26quot%3B%2C%26quot%3BNoto%20Color%20Emoji%26quot%3B%2C%20monospace%3Bfont-size%3A14pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_17292fffbf2%22%3E%3Crect%20width%3D%22286%22%20height%3D%22180%22%20fill%3D%22%23373940%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22106.390625%22%20y%3D%2296.3%22%3E286x180%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
-            />
+            <Experience />
             <Card.Body>
               <Card.Title>10+ Experience</Card.Title>
               <Card.Text>
-                This is a wider card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
+                Insfra has worked with many customers around the world for 11
+                years.
               </Card.Text>
             </Card.Body>
           </Card>
           <Card>
-            <Card.Img
-              variant="top"
-              src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22286%22%20height%3D%22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20286%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_17292fffbf2%20text%20%7B%20fill%3A%23999%3Bfont-weight%3Anormal%3Bfont-family%3A-apple-system%2CBlinkMacSystemFont%2C%26quot%3BSegoe%20UI%26quot%3B%2CRoboto%2C%26quot%3BHelvetica%20Neue%26quot%3B%2CArial%2C%26quot%3BNoto%20Sans%26quot%3B%2Csans-serif%2C%26quot%3BApple%20Color%20Emoji%26quot%3B%2C%26quot%3BSegoe%20UI%20Emoji%26quot%3B%2C%26quot%3BSegoe%20UI%20Symbol%26quot%3B%2C%26quot%3BNoto%20Color%20Emoji%26quot%3B%2C%20monospace%3Bfont-size%3A14pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_17292fffbf2%22%3E%3Crect%20width%3D%22286%22%20height%3D%22180%22%20fill%3D%22%23373940%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22106.390625%22%20y%3D%2296.3%22%3E286x180%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
-            />
+            <SEOExpertise />
             <Card.Body>
               <Card.Title>SEO Expertise</Card.Title>
               <Card.Text>
-                This card has supporting text below as a natural lead-in to
-                additional content.{" "}
+                We will bring you to the top of the search results and increase
+                web traffic{" "}
               </Card.Text>
             </Card.Body>
           </Card>
           <Card>
-            <Card.Img
-              variant="top"
-              src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22286%22%20height%3D%22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20286%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_17292fffbf2%20text%20%7B%20fill%3A%23999%3Bfont-weight%3Anormal%3Bfont-family%3A-apple-system%2CBlinkMacSystemFont%2C%26quot%3BSegoe%20UI%26quot%3B%2CRoboto%2C%26quot%3BHelvetica%20Neue%26quot%3B%2CArial%2C%26quot%3BNoto%20Sans%26quot%3B%2Csans-serif%2C%26quot%3BApple%20Color%20Emoji%26quot%3B%2C%26quot%3BSegoe%20UI%20Emoji%26quot%3B%2C%26quot%3BSegoe%20UI%20Symbol%26quot%3B%2C%26quot%3BNoto%20Color%20Emoji%26quot%3B%2C%20monospace%3Bfont-size%3A14pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_17292fffbf2%22%3E%3Crect%20width%3D%22286%22%20height%3D%22180%22%20fill%3D%22%23373940%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22106.390625%22%20y%3D%2296.3%22%3E286x180%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
-            />
+            <ASOExpertise />
             <Card.Body>
               <Card.Title>ASO Expertise</Card.Title>
               <Card.Text>
-                This card has supporting text below as a natural lead-in to
-                additional content.{" "}
+                We will make your app be among the most downloaded apps in App
+                Store
               </Card.Text>
             </Card.Body>
           </Card>
           <Card>
-            <Card.Img
-              variant="top"
-              src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22286%22%20height%3D%22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20286%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_17292fffbf2%20text%20%7B%20fill%3A%23999%3Bfont-weight%3Anormal%3Bfont-family%3A-apple-system%2CBlinkMacSystemFont%2C%26quot%3BSegoe%20UI%26quot%3B%2CRoboto%2C%26quot%3BHelvetica%20Neue%26quot%3B%2CArial%2C%26quot%3BNoto%20Sans%26quot%3B%2Csans-serif%2C%26quot%3BApple%20Color%20Emoji%26quot%3B%2C%26quot%3BSegoe%20UI%20Emoji%26quot%3B%2C%26quot%3BSegoe%20UI%20Symbol%26quot%3B%2C%26quot%3BNoto%20Color%20Emoji%26quot%3B%2C%20monospace%3Bfont-size%3A14pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_17292fffbf2%22%3E%3Crect%20width%3D%22286%22%20height%3D%22180%22%20fill%3D%22%23373940%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22106.390625%22%20y%3D%2296.3%22%3E286x180%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
-            />
+            <ProvenTrackRecord />
             <Card.Body>
               <Card.Title>Proven Track Record</Card.Title>
               <Card.Text>
-                This card has supporting text below as a natural lead-in to
-                additional content.{" "}
+                Each member holds expertise in their area. Friendly,
+                Professional and Dynamic
               </Card.Text>
             </Card.Body>
           </Card>
         </CardDeck>
       </Jumbotron>
     </CardDeck>
-
     <br />
     <CardDeck>
-      <Jumbotron style={{paddingTop:'5px'}}>
+      <Jumbotron style={{ paddingTop: "5px" }}>
         <h1 align="center">Top Articles from SEO/ASO blog</h1>
         <br />
         <CardDeck>

@@ -121,10 +121,16 @@ export default function ScrollDialog() {
           </DialogContentText>
         </DialogContent>
         <DialogActions>
-          <Button onClick={handleClose} className={classes.btnGetQuote}>
+        <div class="card-body gradient-buttons">
+          <button
+            type="button"
+            class="btn btn-primary"
+            style={{ marginLeft: "400px", marginright: "auto" }}
+          >
+            {" "}
             Get a quote
-          </Button>
-        </DialogActions>
+          </button>
+        </div>        </DialogActions>
       </Dialog>
     </div>
   );

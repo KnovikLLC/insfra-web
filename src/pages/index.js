@@ -1,20 +1,19 @@
-import React from "react"
-import { Link } from "gatsby"
+import React from "react";
+import { Link } from "gatsby";
 
-import { Card, CardGroup, Container, Row, Col, Button } from "react-bootstrap"
-import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
-import Seoimage from "../components/images/home/seoimage"
-import Entraimage from "../components/images/home/entraimage"
+import { Card, CardGroup, Container, Row, Col, Button } from "react-bootstrap";
+import Layout from "../components/homeLayout.js";
+import Image from "../components/image";
+import SEO from "../components/seo";
+import Seoimage from "../components/images/home/seoimage";
+import Entraimage from "../components/images/home/entraimage";
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
 
     <Row>
-      <Col md={2}></Col>
-      <Col md={8}>
+      <Col>
         <CardGroup>
           <Card style={{ backgroundColor: "#ffe0b2" }}>
             <Card.Body>
@@ -42,18 +41,16 @@ const IndexPage = () => (
                 longer.
               </Card.Text>
               <div style={{ textAlign: "center" }}>
-              <Link to="/entraprenureship">
-                <Button variant="primary">
-                  Explore Entraprenureship Service
-                </Button>{" "}
+                <Link to="/entraprenureship">
+                  <Button variant="primary">
+                    Explore Entraprenureship Service
+                  </Button>{" "}
                 </Link>
               </div>
             </Card.Body>
           </Card>
         </CardGroup>
       </Col>
-
-      <Col md={2}></Col>
     </Row>
     {/* <Row style={{marginBottom:"0px important", backgroundColor:"red"}}><footer>
           © {new Date().getFullYear()}, Built with
@@ -61,6 +58,6 @@ const IndexPage = () => (
           <a href="https://www.gatsbyjs.org">Gatsby</a>
         </footer></Row> */}
   </Layout>
-)
+);
 
-export default IndexPage
+export default IndexPage;
