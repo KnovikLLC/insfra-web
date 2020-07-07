@@ -11,7 +11,7 @@ const Header = () => (
         src="https://insfra.com/assets/img/logo.png"
         width="200px"
         height="50px"
-        marginLeft="300px"
+        
         className="d-inline-block"
       />
     </Navbar.Brand>

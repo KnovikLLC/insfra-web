@@ -67,7 +67,7 @@ const Layout = ({ children }) => {
                       style={{  }}
                       href="/entraprenureship/"
                     >
-                      Entraprenureship
+                     Entrepreneurship
                     </Nav.Link>
                     <Nav.Link style={{  }} href="/ourteam/">
                       Our Team
