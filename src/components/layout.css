@@ -799,3 +799,7 @@ div.list-group-item {
 margin: 10px;
 box-shadow: 0 5px 10px -2.5px;
 }
+
+.bg-c-yellow {
+  background: linear-gradient(45deg,#FFB64D,#ffcb80);
+}

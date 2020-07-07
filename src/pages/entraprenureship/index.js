@@ -275,7 +275,7 @@ const EntraprenureshipPage = () => (
     </CardDeck>
     <h1>FAQs</h1>
     <Accordion>
-      <Card>
+    <Card>
         <Card.Header>
           <Accordion.Toggle as={Button} variant="link" eventKey="0">
             What is SEO?

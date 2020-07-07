@@ -15,11 +15,12 @@ const Header = () => (
         className="d-inline-block"
       />
     </Navbar.Brand>
+    
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav
         className="mr-auto"
-        style={{ fontSize: "25px" }}
+        style={{ fontSize: "20px" }}
       >
         <Nav.Link href="/">Home</Nav.Link>
 
@@ -27,7 +28,7 @@ const Header = () => (
           SEO/ASO
         </Nav.Link>
         <Nav.Link style={{  }} href="/entraprenureship/">
-          Entraprenureship
+        Entrepreneurship
         </Nav.Link>
         <Nav.Link style={{  }} href="/ourteam/">
           Our Team

@@ -5,9 +5,8 @@ import {
   Award,
   CheckAll,
   Check2Circle,
-  CheckSquare
+  CheckSquare,
 } from "react-bootstrap-icons";
-
 
 import {
   Card,
@@ -72,7 +71,7 @@ const SeoPage = () => (
       </Carousel.Item>
     </Carousel>
     <br />
-    <p>
+    <p style={{textAlign:"justify"}}>
       Get expert Search Engine Optimization and App Store Optimization services
       for your business. We cater from sole proprietorship to corporate to get
       the website/pages ranked in searches and convert for sales
@@ -96,7 +95,7 @@ const SeoPage = () => (
             height="300px"
             allowFullScreen
           ></iframe>
-          <Card.Text>
+          <Card.Text style={{textAlign:"justify"}}>
             We will make your website, blog, product or service ranked in online
             environments. Therefore it reaches a broad audience in your
             segmented market and increases conversions.
@@ -119,7 +118,7 @@ const SeoPage = () => (
             height="300px"
             allowFullScreen
           ></iframe>
-          <Card.Text>
+          <Card.Text style={{textAlign:"justify"}}>
             We will naturally get your app to the most downloaded app list of
             App Store and PlayStore through App Store Optimization with which
             most customers convert for sales
@@ -145,7 +144,7 @@ const SeoPage = () => (
             </Col>
           </Row>
 
-          <Card.Text>
+          <Card.Text style={{textAlign:"justify"}}>
             <br />
             <Check2Circle color="royalblue" size={30} /> Market research
             <br />
@@ -159,11 +158,11 @@ const SeoPage = () => (
           <SEOModel />
         </Card.Body>
 
-        <div class="card-body gradient-buttons">
+        <div className="card-body gradient-buttons">
           <button
             type="button"
-            class="btn btn-primary"
-            style={{ marginLeft: "45px", marginright: "auto" }}
+            className="btn btn-primary"
+            style={{ width: "100%" }}
           >
             {" "}
             Get a quote
@@ -182,26 +181,25 @@ const SeoPage = () => (
               <RankASO />
             </Col>
           </Row>
-          <Card.Text>
+          <Card.Text style={{textAlign:"justify"}}>
             <br />
-            <Check2Circle color="royalblue" size={30}/> App Store Optimization
-            <br />
-            <br />
-            <Check2Circle color="royalblue" size={30}/> PlayStore Optimization
+            <Check2Circle color="royalblue" size={30} /> App Store Optimization
             <br />
             <br />
-            <Check2Circle color="royalblue" size={30}/> Off page optimization
+            <Check2Circle color="royalblue" size={30} /> PlayStore Optimization
             <br />
-            
+            <br />
+            <Check2Circle color="royalblue" size={30} /> Off page optimization
+            <br />
           </Card.Text>
           <ASOModel />
         </Card.Body>
 
-        <div class="card-body gradient-buttons">
+        <div className="card-body gradient-buttons">
           <button
             type="button"
-            class="btn btn-primary"
-            style={{ marginLeft: "50px", marginright: "auto" }}
+            className="btn btn-primary"
+            style={{ width: "100%" }}
           >
             {" "}
             Get a quote
@@ -219,25 +217,25 @@ const SeoPage = () => (
               <RankSEOASO />
             </Col>
           </Row>
-          <Card.Text>
-          <br />
-          <Check2Circle color="royalblue" size={30}/> Audit,Revealing issues
-          <br />
-          <br />
-          <Check2Circle color="royalblue" size={30}/> SEO, SEM & ASO
-          <br />
-          <br />
-          <Check2Circle color="royalblue" size={30}/> Marketing Strategy
-          <br/>
+          <Card.Text style={{textAlign:"justify"}}>
+            <br />
+            <Check2Circle color="royalblue" size={30} /> Audit,Revealing issues
+            <br />
+            <br />
+            <Check2Circle color="royalblue" size={30} /> SEO, SEM & ASO
+            <br />
+            <br />
+            <Check2Circle color="royalblue" size={30} /> Marketing Strategy
+            <br />
           </Card.Text>
           <SEOASOConsult />
         </Card.Body>
 
-        <div class="card-body gradient-buttons">
+        <div className="card-body gradient-buttons">
           <button
             type="button"
-            class="btn btn-primary"
-            style={{ marginLeft: "50px", marginright: "auto" }}
+            className="btn btn-primary"
+            style={{ width: "100%" }}
           >
             {" "}
             Get a quote
@@ -256,25 +254,25 @@ const SeoPage = () => (
               <RankLocal />
             </Col>
           </Row>
-          <Card.Text>
-          <br />
-          <Check2Circle color="royalblue" size={30}/> App Store Optimization
-          <br />
-          <br />
-          <Check2Circle color="royalblue" size={30}/> PlayStore Optimization
-          <br />
-          <br />
-          <Check2Circle color="royalblue" size={30}/> Off page optimization
-          <br/>
+          <Card.Text style={{textAlign:"justify"}}>
+            <br />
+            <Check2Circle color="royalblue" size={30} /> App Store Optimization
+            <br />
+            <br />
+            <Check2Circle color="royalblue" size={30} /> PlayStore Optimization
+            <br />
+            <br />
+            <Check2Circle color="royalblue" size={30} /> Off page optimization
+            <br />
           </Card.Text>
-          <LocalSEO/>
+          <LocalSEO />
         </Card.Body>
 
-        <div class="card-body gradient-buttons">
+        <div className="card-body gradient-buttons">
           <button
             type="button"
-            class="btn btn-primary"
-            style={{ marginLeft: "50px", marginright: "auto" }}
+            className="btn btn-primary"
+            style={{ width: "100%" }}
           >
             {" "}
             Get a quote
@@ -284,11 +282,13 @@ const SeoPage = () => (
     </CardDeck>
     <br />
     <br />
+    <h2>Why Choose Us?</h2>
     <CardDeck>
-      <Jumbotron style={{ paddingTop: "5px" }}>
-        <h1 align="center">Why Choose Us?</h1>
+      
+      <Jumbotron style={{ paddingTop: "5px", background: "linear-gradient(45deg,#082684 ,#0CA0EF)",paddingBottom:"30px" }}>
+        
         <br />
-        <p>
+        <p style={{color: "#FEFEFE", textAlign:"justify"}}>
           {" "}
           We believe in conversions more than the impressions. Therefore, we
           analyze customers, their search intent, psychological needs and their
@@ -340,11 +340,13 @@ const SeoPage = () => (
           </Card>
         </CardDeck>
       </Jumbotron>
+     
     </CardDeck>
     <br />
+    <h2>Top Articles from SEO/ASO blog</h2>
     <CardDeck>
-      <Jumbotron style={{ paddingTop: "5px" }}>
-        <h1 align="center">Top Articles from SEO/ASO blog</h1>
+      <Jumbotron >
+      {/* style={{ paddingTop: "5px", background: "linear-gradient(45deg,#082684 ,#0CA0EF)",paddingBottom:"30px"}} */}
         <br />
         <CardDeck>
           <Card>
@@ -392,12 +394,20 @@ const SeoPage = () => (
     </CardDeck>
     <h1>FAQs</h1>
     <Accordion>
-      <Card>
-        <Card.Header>
-          <Accordion.Toggle as={Button} variant="link" eventKey="0">
+    <Card>
+    <Accordion.Toggle as={Button} variant="link" eventKey="0">
+        <Card.Header 
+         style={{
+            background: "linear-gradient(45deg,#082684 ,#0CA0EF)",
+            color: "#FEFEFE",
+          }}>
+         
             What is SEO?
-          </Accordion.Toggle>
+        
+
         </Card.Header>
+        </Accordion.Toggle>
+        
         <Accordion.Collapse eventKey="0">
           <Card.Body>
             SEO is the process of growing the quality and the quantity of web
@@ -407,59 +417,84 @@ const SeoPage = () => (
           </Card.Body>
         </Accordion.Collapse>
       </Card>
+      <br />
       <Card>
-        <Card.Header>
-          <Accordion.Toggle as={Button} variant="link" eventKey="1">
-            What is ASO?
-          </Accordion.Toggle>
+      <Accordion.Toggle as={Button} variant="link" eventKey="1">
+        <Card.Header
+          style={{
+            background: "linear-gradient(45deg,#082684 ,#0CA0EF)",
+            color: "#FEFEFE",
+          }}
+        >
+          What is ASO?
         </Card.Header>
+        </Accordion.Toggle>
         <Accordion.Collapse eventKey="1">
-          <Card.Body>
-            ASO is the process of increasing the visibility of a mobile
-            application in the App Store/Play Store environment. This involves
-            helping the app get ranked in the App search in the store.
-          </Card.Body>
+        <Card.Body>
+          ASO is the process of increasing the visibility of a mobile
+          application in the App Store/Play Store environment. This involves
+          helping the app get ranked in the App search in the store.
+        </Card.Body>
         </Accordion.Collapse>
       </Card>
+      <br />
       <Card>
-        <Card.Header>
-          <Accordion.Toggle as={Button} variant="link" eventKey="2">
-            Can we optimize in the Play Store only?
-          </Accordion.Toggle>
+      <Accordion.Toggle as={Button} variant="link" eventKey="2">
+        <Card.Header
+          style={{
+            background: "linear-gradient(45deg,#082684 ,#0CA0EF)",
+            color: "#FEFEFE",
+          }}
+        >
+          Can we optimize in the Play Store only?
         </Card.Header>
+        </Accordion.Toggle>
         <Accordion.Collapse eventKey="2">
-          <Card.Body>
-            Yes. you may get only the Play Store optimization if you wish to.
-            You will not be charged for the whole ASO optimization package as
-            you only request for Play Store Optimization
-          </Card.Body>
+        <Card.Body>
+          Yes. you may get only the Play Store optimization if you wish to. You
+          will not be charged for the whole ASO optimization package as you only
+          request for Play Store Optimization
+        </Card.Body>
         </Accordion.Collapse>
       </Card>
+      <br />
       <Card>
-        <Card.Header>
-          <Accordion.Toggle as={Button} variant="link" eventKey="3">
-            Can we optimize in the App Store only?
-          </Accordion.Toggle>
+      <Accordion.Toggle as={Button} variant="link" eventKey="3">
+        <Card.Header
+          style={{
+            background: "linear-gradient(45deg,#082684 ,#0CA0EF)",
+            color: "#FEFEFE",
+          }}
+        >
+          Can we optimize in the App Store only?
         </Card.Header>
+        </Accordion.Toggle>
         <Accordion.Collapse eventKey="3">
-          <Card.Body>
-            Yes. you may get only the App Store optimization if you wish to. You
-            will not be charged for the whole ASO optimization package as you
-            only request for App Store Optimization
-          </Card.Body>
+        <Card.Body>
+          Yes. you may get only the App Store optimization if you wish to. You
+          will not be charged for the whole ASO optimization package as you only
+          request for App Store Optimization
+        </Card.Body>
         </Accordion.Collapse>
       </Card>
+      <br />
       <Card>
-        <Card.Header>
-          <Accordion.Toggle as={Button} variant="link" eventKey="4">
-            Do you offer a flat rate for SEO?
-          </Accordion.Toggle>
+      <Accordion.Toggle as={Button} variant="link" eventKey="4" textDecoration="none">
+        <Card.Header
+          style={{
+            background: "linear-gradient(45deg,#082684 ,#0CA0EF)",
+            color: "#FEFEFE",
+            
+          }}
+        >
+          Do you offer a flat rate for SEO?
         </Card.Header>
+        </Accordion.Toggle>
         <Accordion.Collapse eventKey="4">
-          <Card.Body>
-            Yes. we do depending on the project. Reach us via hello@insfra.com
-            to check your project’s eligibility.
-          </Card.Body>
+        <Card.Body>
+          Yes. we do depending on the project. Reach us via hello@insfra.com to
+          check your project’s eligibility.
+        </Card.Body>
         </Accordion.Collapse>
       </Card>
     </Accordion>
