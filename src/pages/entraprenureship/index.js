@@ -23,12 +23,10 @@ import One from "../../components/images/seo/1";
 import Two from "../../components/images/seo/2";
 import Three from "../../components/images/seo/3";
 
-
-
 const EntraprenureshipPage = () => (
   <Layout>
     <SEO title="Home" />
-<h1>Entraprenureship</h1>
+    <h1>Entraprenureship</h1>
     <Carousel>
       <Carousel.Item>
         <One />
@@ -47,19 +45,14 @@ const EntraprenureshipPage = () => (
       </Carousel.Item>
     </Carousel>
     <br />
-    <p>
-      We help community to craft themselves into digital entrepreneurs with
-      ideas, knowledge and techniques
-    </p>
 
     <br />
-    <CardGroup>
+    <CardDeck>
       <Card>
         <Card.Body>
-          <Card.Title>
-            <h1>Entrepreneurship</h1>
-          </Card.Title>
-          <Card.Text>
+          <h1>Entrepreneurship</h1>
+
+          <Card.Text style={{ textAlign: "justify" }}>
             Welcome board, all who takes risks to gain profits
           </Card.Text>
         </Card.Body>
@@ -69,11 +62,18 @@ const EntraprenureshipPage = () => (
           <Card.Title>
             <h1>Freelancing</h1>{" "}
           </Card.Title>
-          <Card.Text>Come on in, all self work at own space to earn</Card.Text>
+          <Card.Text style={{ textAlign: "justify" }}>
+            Come on in, all self work at own space to earn
+          </Card.Text>
         </Card.Body>
       </Card>
-    </CardGroup>
+    </CardDeck>
     <br />
+    <p style={{ textAlign: "justify" }}>
+      We help community to craft themselves into digital entrepreneurs with
+      ideas, knowledge and techniques
+    </p>
+
     <br />
     <h2>SERVICES FOR ENTREPRENEURS</h2>
 
@@ -118,58 +118,67 @@ const EntraprenureshipPage = () => (
 
     <br />
     <br />
-
+    <h1>Partnership Companies/Startups</h1>
     <CardDeck>
-      <Jumbotron style={{paddingTop:'5px'}}>
-        <h1 align="center">Partnership Companies/Startups</h1>
-        <br />
+      
         <CardDeck>
           <Card>
             <Card.Img
               variant="top"
-              src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22675%22%20height%3D%22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20675%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_17293681466%20text%20%7B%20fill%3A%23999%3Bfont-weight%3Anormal%3Bfont-family%3A-apple-system%2CBlinkMacSystemFont%2C%26quot%3BSegoe%20UI%26quot%3B%2CRoboto%2C%26quot%3BHelvetica%20Neue%26quot%3B%2CArial%2C%26quot%3BNoto%20Sans%26quot%3B%2Csans-serif%2C%26quot%3BApple%20Color%20Emoji%26quot%3B%2C%26quot%3BSegoe%20UI%20Emoji%26quot%3B%2C%26quot%3BSegoe%20UI%20Symbol%26quot%3B%2C%26quot%3BNoto%20Color%20Emoji%26quot%3B%2C%20monospace%3Bfont-size%3A34pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_17293681466%22%3E%3Crect%20width%3D%22675%22%20height%3D%22180%22%20fill%3D%22%23373940%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22250.5390625%22%20y%3D%22105.30000000000001%22%3E675x180%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+              src="https://www.forum.entrepreneursclub.lk/uploads/RBKHVMNCNUV1.png"
             />
             <Card.Body>
               <Card.Title>Online Entrepreneurs’ Club Sri Lanka</Card.Title>
               <Card.Text>
-                This is a wider card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
+              OECSL is the largest entrepreneurial community on Facebook platform. The Club has been designed to cater both emerging and existing entrepreneurs while by connecting them together
+
+
               </Card.Text>
             </Card.Body>
           </Card>
           <Card>
             <Card.Img
               variant="top"
-              src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22675%22%20height%3D%22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20675%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_17293681466%20text%20%7B%20fill%3A%23999%3Bfont-weight%3Anormal%3Bfont-family%3A-apple-system%2CBlinkMacSystemFont%2C%26quot%3BSegoe%20UI%26quot%3B%2CRoboto%2C%26quot%3BHelvetica%20Neue%26quot%3B%2CArial%2C%26quot%3BNoto%20Sans%26quot%3B%2Csans-serif%2C%26quot%3BApple%20Color%20Emoji%26quot%3B%2C%26quot%3BSegoe%20UI%20Emoji%26quot%3B%2C%26quot%3BSegoe%20UI%20Symbol%26quot%3B%2C%26quot%3BNoto%20Color%20Emoji%26quot%3B%2C%20monospace%3Bfont-size%3A34pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_17293681466%22%3E%3Crect%20width%3D%22675%22%20height%3D%22180%22%20fill%3D%22%23373940%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22250.5390625%22%20y%3D%22105.30000000000001%22%3E675x180%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
-            />
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQx7oF7JAujln-7f0kBz2_WwSOlqNB6erc-hg&usqp=CAU"
+              />
             <Card.Body>
               <Card.Title>Aukod</Card.Title>
               <Card.Text>
-                This card has supporting text below as a natural lead-in to
-                additional content.{" "}
+              Aukod is an international app based news provider that delivers a range of news in different areas such as psychology, health, cooking, relationships, people etc.
+
               </Card.Text>
             </Card.Body>
           </Card>
           <Card>
             <Card.Img
               variant="top"
-              src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22675%22%20height%3D%22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20675%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_17293681466%20text%20%7B%20fill%3A%23999%3Bfont-weight%3Anormal%3Bfont-family%3A-apple-system%2CBlinkMacSystemFont%2C%26quot%3BSegoe%20UI%26quot%3B%2CRoboto%2C%26quot%3BHelvetica%20Neue%26quot%3B%2CArial%2C%26quot%3BNoto%20Sans%26quot%3B%2Csans-serif%2C%26quot%3BApple%20Color%20Emoji%26quot%3B%2C%26quot%3BSegoe%20UI%20Emoji%26quot%3B%2C%26quot%3BSegoe%20UI%20Symbol%26quot%3B%2C%26quot%3BNoto%20Color%20Emoji%26quot%3B%2C%20monospace%3Bfont-size%3A34pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_17293681466%22%3E%3Crect%20width%3D%22675%22%20height%3D%22180%22%20fill%3D%22%23373940%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22250.5390625%22%20y%3D%22105.30000000000001%22%3E675x180%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
-            />
+              src="https://www.builtapps.com/images/logo_skin-default.png"   />
             <Card.Body>
-              <Card.Title>Knovik</Card.Title>
+              <Card.Title>Built Apps</Card.Title>
               <Card.Text>
-                This card has supporting text below as a natural lead-in to
-                additional content.{" "}
+              Built Apps is an App and Game development company which designs experience based apps. So far it has been able to reach global audience with its game and app developing expertise.
+
+              </Card.Text>
+            </Card.Body>
+          </Card>
+          <Card>
+            <Card.Img
+              variant="top"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAA21BMVEX///8CTJ1YX2ECMlJUW11IUFPk5uYAOZUASpxPV1mCiInY4e7CxMQAPJcAQpkAMFEYV6MAQJgAHUWsr7C0w9uFn8eUqc0AOJUAKUzy9/vr7/GhpKUAI0kAKk6Sn6sARZqlttSDk6BLdLE0Z6wAGENmd4ni6fNvgJAAET+1vsastr9ZbYDBz+OSlpcgQl+/x816k78wX6Z4h5bW3eGfqbMAADdzj74AL5JggriKjo/d5vG9zOGvv9p5foAAKJAAIY48Vm0AADRWe7QrS2Wcrs5Fba1LZHjM1ttqcHIM4NBjAAAJtUlEQVR4nO2ca0PaSBeASbGaLhsgrEiS0gYREC/rtShVuuu6YN///4teMnNmck4msQaJIHueT2VymXmSyZmZk9hSiWEYhmEYhmEYhmEYhmEYhmEYhmEYhmEYhmEYhmEYhmEYhmEYhmEYhmEYhmGYteb3z3/kZ9WNzsWPT/n5GKy61Xn4betDbj6x4VrxXzHc2vTncOt7vljqr7rVeRCGn35fdTMKhA3fP9Sw3z9aaWuK4Dsx/DL8lr2rX6EM4k0DXG7EIT/jqMRxz1QlCZ7dmlF5wrDcyDScXLZ2KK3qjWruxW1cfNtMHtrM3NqNt7RauLK/dlJo1adia+XvtK2Cv/F1ymfY3bGtJHbonIJDFZXOksceoEOre3hLHW3ZQXd31zUqE6d2DqJ7VGmlbo1wFjbspldptSqmoZs82MkyHDjoVO7uLw0tK7yMDHcyDXd+aeg99E8wT7J8knXV7EvDUFlrSIOI4amTsSXT0HL3XmlYq3mEoSyfmV2U6BDDaodW0SEbseEUi4Tdlxja9dcalikNWe5kGrpTwzAc0yrGYZYh2WKFLzG0Wv4rDb0GYQSGmaeULSaGtkWrsGxjf6BOLlwrntA/Zzh45XN4dUQ4ThiGLqDalmIYNQJBwgkx9OEscC7n3jS0q1BfFZ28cqtaEZ8WCm4XjaWqkWGzI5lc2tmGqKnG/cCGEGj0xWoax9g21NfZUzXMDYOpKlW9PNyDgim5uAsYqvEvjj1phuEFPpZuw4Yd6RHeyIai51dfFf1sDlQ0xx3E1+0yb12hhvYBPvaAPGzYEMyqcCvQ87tMwz+JYe+fr8swdNHs0HczDaGnu/ehnWh8cYbX1+kJinyGpMJE4MOGcFZnADE1PntxhlnkNJSDpGRKAz8yBPf5LA9OFm8rzrB/iOhfXWcbHlRDQSvNMHyMK6CjOjaEQDOfpYyToaY4wy90zjZS62HTsHkhudklhrYNjdbIwcCm46fgAgLMrNQMLXpYcYaJWVutF1BD9z79LMrQ7spHytHNkC2z67RXCyDIzm+46smOilDFGbbJlM0rt/dluboDeHacajjuil3jlZBsqz17NA2hzfPR814ZnpKjijA8Juw3ameyvKs7Wfc08M1MgTIMx7LrxWM+/G52DcM7aPM8LKl463YKN0xw5Q1lN53qSBI6juuG9XGHTI/0PXyEe6bH/AO4p2YvnYDF/H776nbeZBp2VImDx9pXG543hjKcBngFbM8JXecRnTU2vBOV6jEfxvudgWkIgUa0Dk4P62k884aCU7V+w0FsmYalC3M5E97G08840pSqMtTAEyX7nx3quVtsqJyj/IxqftVPGt4IZjpLpG/zcgx1L00s8gD3UvUYZCgbrsb8qeq0piFM1cTtVraqpfF6RI66ceUkRbKAIV0cftWRZv6kh3TkltWrLoMMIbTAmP8IgcY0vIPoIubbMAe33EnSMHlR8S18/WjR1qNFpFhPqbU6Ngwh1Dhyg6UGD8NQLwGj5KNa/akYnGUYklXLEkb88nAb7dpsVY2u2jpNGkJYl0Edfjh3pmE8wJTiSKlicFa+lAouY9ZGV4tBs95yquSxgCkAMizJf8r+BjfUKpmGaoAMo5X9PTTVDp81jAfMhQ1JrvSk/9PYvTLZuxmPL+PcmxyesOEjGvPlQxmVGoYqdInco3oordbds4ZWi0wbl7h6SjKYqbgjhwVsKP8txy25xo0SMEnDQZz62Z1M9HgOoSbT0A7xhKpAw/jcst9gQ8gv7fh6r+gqJA1Vv4T0nfoB2ah4PJQpNEcHcrz0XKahr9AlqsUuWR9GhjAFi7SU7MA03KMrSn2PusTQtmW1lbFWxsFmIcOjf2uaMx1o/nIE7q1+DNLX+KKBdd01pYYY8ZKGjynDq6VHGXNeqhbSdvWVhkejGmKohkMVWX6VxRCGYx1eIOiMUwzrKXOkCDnKmIY63YMy44sY+j06Ho5gWvrSPI0whJnavHHVeAaXMAyy3hPIbHJxq6dv7XKjp2mUvcMFDOFyOxU13ldMw9MsQxlqijN88BpHwTYQnLdr5QUMYcXkTqCdLd80nGYNB3JCW2Qm6gRv3Fdri1yGMAqGNzLBJBd9CUOdgQsdCGJasWDDNpmnHan1YT5DmMnMZmCaYqgCTXhzKtE3VRisztC+VKhLnmYI+QnIIMo5ATVUaYs4ZTUgF7HIXvqEN85XwD4xFBkMwXOGNJEvX1pSw4o6IcxDS2ieuleo4dOXxtdtzbFeAWe/AzbnNCW9fJdFMjNBDVWftOM32114MkWoKTCb2Ci3h5p22buS5ekTEHHuSYoh/rABplnUUK3p0RxMn6K+ZEP6/rD0pZa6Ar7JVJQVJgzxa4ywmWKo3iCjd6laygkKNTwfeWjWNlKztrus72kgjZEwvEe9GtZDxDBemcRfCekqolBToGHp58OZ5t9jXdxJV6xCKiphOEB7O3emof5sC2fO1Nw3muQVaZjFruuGdoKw9QjLqaYLJfBew0J7yZIDOFpEpo4D2xxUg9ojmqjvqh2QIZQQQ1WY8pFJbsOSP+3WKZcX8bs2C8ogiTiO9wLnGfy0IsMLi26k55hHn11bHa4NQygIsaHazV6G4buFDZfB9nXEqv5IY8FMVC4+f4xY1V+8vYnhp1U+CdQwAOhPMST4qZsC8iNIHA9Iw/W4h8Ne9EZm2Je/gn/kF5hiZnM1kj9gBDwZRr968vvTXo9+s9koH+IXHtLw8xsZJUmsnsS0VGVn/KGYnLbFl2D7bflJLRj2PfGxhsxy1BIvdGo1bxTPh9bLsJxtKJVeZBhtGenPjTbUEL963BxDD3KQ8scGGnr9n4J2uuF6xNLXGUJCYLjphj4bvjHcS/MbXvfQUYI1NOyL5c71z0bOWBod9A3SdcP4M4f1M4SBTY1s+cbDNvz7Ia5jDQ0pi8xpag+ojo009PDfbWykYbl9Fn+3sYaGnnxv0cv7HMq3HcaDuH6GXl+86Q6uc8bSQ3HYcS0ZTFdr+H35I74aEPXL1o0zJIdFbJxhsPGGm38Pzxvv+Tkse0fngqcUw5Now/Fh+13H0nJZ/02UMKyJHdV4iLasz3j4YsOvMv1CyZ7TeO048f1ODK9HKSnDnlzmGoa1xhnK7K+VYXbOu3Sk5mNaw1Ppf2JY89rDMvm0ap0Me+2InnpvMRI/hxD2g/2zNqZ2cg6HNXDx2dN+4hv/1Rq+xf+EtdqM8OYbvsVb7jW4h1s/fiuS/31YueGHrUL5sAaGbwAbsuHC/Pj4Vvy5IsPtN+Nd/ce1DMMwDMMwDMMwDMMwDMMwDMMwDMMwDMMwDMMwDMMwDMMwDJOH/wO9iKGk2eQrjQAAAABJRU5ErkJggg=="    />
+            <Card.Body>
+              <Card.Title>OutSmart Hub</Card.Title>
+              <Card.Text>
+              expertise.
+
               </Card.Text>
             </Card.Body>
           </Card>
         </CardDeck>
-      </Jumbotron>
+    
     </CardDeck>
 
     <CardDeck>
-      <Jumbotron style={{paddingTop:'5px'}}>
+      
         <h1 align="center">Why Us?</h1>
         <br />
 
@@ -180,11 +189,10 @@ const EntraprenureshipPage = () => (
               src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22286%22%20height%3D%22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20286%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_17292fffbf2%20text%20%7B%20fill%3A%23999%3Bfont-weight%3Anormal%3Bfont-family%3A-apple-system%2CBlinkMacSystemFont%2C%26quot%3BSegoe%20UI%26quot%3B%2CRoboto%2C%26quot%3BHelvetica%20Neue%26quot%3B%2CArial%2C%26quot%3BNoto%20Sans%26quot%3B%2Csans-serif%2C%26quot%3BApple%20Color%20Emoji%26quot%3B%2C%26quot%3BSegoe%20UI%20Emoji%26quot%3B%2C%26quot%3BSegoe%20UI%20Symbol%26quot%3B%2C%26quot%3BNoto%20Color%20Emoji%26quot%3B%2C%20monospace%3Bfont-size%3A14pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_17292fffbf2%22%3E%3Crect%20width%3D%22286%22%20height%3D%22180%22%20fill%3D%22%23373940%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22106.390625%22%20y%3D%2296.3%22%3E286x180%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
             />
             <Card.Body>
-              <Card.Title>11+ years of professional experience</Card.Title>
+              <Card.Title>Startup Experience</Card.Title>
               <Card.Text>
-                This is a wider card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
+              We know startups by experience. Today, we are a company that services USA and Europe with our Search Engine Optimization expertise
+
               </Card.Text>
             </Card.Body>
           </Card>
@@ -194,10 +202,10 @@ const EntraprenureshipPage = () => (
               src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22286%22%20height%3D%22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20286%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_17292fffbf2%20text%20%7B%20fill%3A%23999%3Bfont-weight%3Anormal%3Bfont-family%3A-apple-system%2CBlinkMacSystemFont%2C%26quot%3BSegoe%20UI%26quot%3B%2CRoboto%2C%26quot%3BHelvetica%20Neue%26quot%3B%2CArial%2C%26quot%3BNoto%20Sans%26quot%3B%2Csans-serif%2C%26quot%3BApple%20Color%20Emoji%26quot%3B%2C%26quot%3BSegoe%20UI%20Emoji%26quot%3B%2C%26quot%3BSegoe%20UI%20Symbol%26quot%3B%2C%26quot%3BNoto%20Color%20Emoji%26quot%3B%2C%20monospace%3Bfont-size%3A14pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_17292fffbf2%22%3E%3Crect%20width%3D%22286%22%20height%3D%22180%22%20fill%3D%22%23373940%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22106.390625%22%20y%3D%2296.3%22%3E286x180%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
             />
             <Card.Body>
-              <Card.Title>Expert Professionals </Card.Title>
+              <Card.Title>Our Expertise</Card.Title>
               <Card.Text>
-                This card has supporting text below as a natural lead-in to
-                additional content.{" "}
+              We have skilled professionals to meet startup needs and requirements. Each is equipped with Professional qualifications and possesses a successful track record of doing their expert area.
+
               </Card.Text>
             </Card.Body>
           </Card>
@@ -207,10 +215,9 @@ const EntraprenureshipPage = () => (
               src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22286%22%20height%3D%22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20286%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_17292fffbf2%20text%20%7B%20fill%3A%23999%3Bfont-weight%3Anormal%3Bfont-family%3A-apple-system%2CBlinkMacSystemFont%2C%26quot%3BSegoe%20UI%26quot%3B%2CRoboto%2C%26quot%3BHelvetica%20Neue%26quot%3B%2CArial%2C%26quot%3BNoto%20Sans%26quot%3B%2Csans-serif%2C%26quot%3BApple%20Color%20Emoji%26quot%3B%2C%26quot%3BSegoe%20UI%20Emoji%26quot%3B%2C%26quot%3BSegoe%20UI%20Symbol%26quot%3B%2C%26quot%3BNoto%20Color%20Emoji%26quot%3B%2C%20monospace%3Bfont-size%3A14pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_17292fffbf2%22%3E%3Crect%20width%3D%22286%22%20height%3D%22180%22%20fill%3D%22%23373940%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22106.390625%22%20y%3D%2296.3%22%3E286x180%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
             />
             <Card.Body>
-              <Card.Title>Proven Track Record</Card.Title>
+              <Card.Title>Proven Results</Card.Title>
               <Card.Text>
-                This card has supporting text below as a natural lead-in to
-                additional content.{" "}
+              We have mentored and given facilities to several startups already and they have now become companies who generate revenue from both local and international level. 
               </Card.Text>
             </Card.Body>
           </Card>
@@ -221,14 +228,14 @@ const EntraprenureshipPage = () => (
           the initiative to come to us with a new idea and became entrepreneurs
           under our roof.
         </p>
-      </Jumbotron>
+     
     </CardDeck>
 
-    <br />
+   
     <CardDeck>
-      <Jumbotron style={{paddingTop:'5px'}}>
-        <h1 align="center">Top Articles from SEO/ASO blog</h1>
-        <br />
+      
+        <h1 align="center">News and Events</h1>
+        
         <CardDeck>
           <Card>
             <Card.Img
@@ -236,11 +243,10 @@ const EntraprenureshipPage = () => (
               src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22675%22%20height%3D%22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20675%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_17293681466%20text%20%7B%20fill%3A%23999%3Bfont-weight%3Anormal%3Bfont-family%3A-apple-system%2CBlinkMacSystemFont%2C%26quot%3BSegoe%20UI%26quot%3B%2CRoboto%2C%26quot%3BHelvetica%20Neue%26quot%3B%2CArial%2C%26quot%3BNoto%20Sans%26quot%3B%2Csans-serif%2C%26quot%3BApple%20Color%20Emoji%26quot%3B%2C%26quot%3BSegoe%20UI%20Emoji%26quot%3B%2C%26quot%3BSegoe%20UI%20Symbol%26quot%3B%2C%26quot%3BNoto%20Color%20Emoji%26quot%3B%2C%20monospace%3Bfont-size%3A34pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_17293681466%22%3E%3Crect%20width%3D%22675%22%20height%3D%22180%22%20fill%3D%22%23373940%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22250.5390625%22%20y%3D%22105.30000000000001%22%3E675x180%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
             />
             <Card.Body>
-              <Card.Title>Article 1</Card.Title>
+              <Card.Title>Priwoo, the First Company under USH</Card.Title>
               <Card.Text>
-                This is a wider card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
+                Priwoo Labs, The first startup under the guidance of Uva Startup
+                Hub was launched.
               </Card.Text>
             </Card.Body>
           </Card>
@@ -250,10 +256,10 @@ const EntraprenureshipPage = () => (
               src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22675%22%20height%3D%22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20675%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_17293681466%20text%20%7B%20fill%3A%23999%3Bfont-weight%3Anormal%3Bfont-family%3A-apple-system%2CBlinkMacSystemFont%2C%26quot%3BSegoe%20UI%26quot%3B%2CRoboto%2C%26quot%3BHelvetica%20Neue%26quot%3B%2CArial%2C%26quot%3BNoto%20Sans%26quot%3B%2Csans-serif%2C%26quot%3BApple%20Color%20Emoji%26quot%3B%2C%26quot%3BSegoe%20UI%20Emoji%26quot%3B%2C%26quot%3BSegoe%20UI%20Symbol%26quot%3B%2C%26quot%3BNoto%20Color%20Emoji%26quot%3B%2C%20monospace%3Bfont-size%3A34pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_17293681466%22%3E%3Crect%20width%3D%22675%22%20height%3D%22180%22%20fill%3D%22%23373940%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22250.5390625%22%20y%3D%22105.30000000000001%22%3E675x180%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
             />
             <Card.Body>
-              <Card.Title>Article 2</Card.Title>
+              <Card.Title>Insfra joined with Uva Startup Hub</Card.Title>
               <Card.Text>
-                This card has supporting text below as a natural lead-in to
-                additional content.{" "}
+                Insfra Technologies joined with Uva Startup Hub and the USH
+                office is at Insfra HQ.
               </Card.Text>
             </Card.Body>
           </Card>
@@ -263,88 +269,80 @@ const EntraprenureshipPage = () => (
               src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22675%22%20height%3D%22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20675%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_17293681466%20text%20%7B%20fill%3A%23999%3Bfont-weight%3Anormal%3Bfont-family%3A-apple-system%2CBlinkMacSystemFont%2C%26quot%3BSegoe%20UI%26quot%3B%2CRoboto%2C%26quot%3BHelvetica%20Neue%26quot%3B%2CArial%2C%26quot%3BNoto%20Sans%26quot%3B%2Csans-serif%2C%26quot%3BApple%20Color%20Emoji%26quot%3B%2C%26quot%3BSegoe%20UI%20Emoji%26quot%3B%2C%26quot%3BSegoe%20UI%20Symbol%26quot%3B%2C%26quot%3BNoto%20Color%20Emoji%26quot%3B%2C%20monospace%3Bfont-size%3A34pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_17293681466%22%3E%3Crect%20width%3D%22675%22%20height%3D%22180%22%20fill%3D%22%23373940%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22250.5390625%22%20y%3D%22105.30000000000001%22%3E675x180%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
             />
             <Card.Body>
-              <Card.Title>Article 3</Card.Title>
+              <Card.Title>Grand Opening of Insfra HQ, Badulla</Card.Title>
               <Card.Text>
-                This card has supporting text below as a natural lead-in to
-                additional content.{" "}
+                Insfra Technologies moved to its new own office at Colombo Road,
+                Badulla.
               </Card.Text>
             </Card.Body>
           </Card>
         </CardDeck>
-      </Jumbotron>
+     
     </CardDeck>
     <h1>FAQs</h1>
     <Accordion>
-    <Card>
-        <Card.Header>
-          <Accordion.Toggle as={Button} variant="link" eventKey="0">
-            What is SEO?
-          </Accordion.Toggle>
+      <Card>
+        <Accordion.Toggle as={Button} variant="link" eventKey="0">
+          <Card.Header
+            style={{
+              background: "linear-gradient(45deg,#082684 ,#0CA0EF)",
+              color: "#FEFEFE",
+            }}
+          >
+            What is Startup Hub?
+          </Card.Header>
+        </Accordion.Toggle>
 
-        </Card.Header>
-        
         <Accordion.Collapse eventKey="0">
-          <Card.Body>
-            SEO is the process of growing the quality and the quantity of web
-            traffic by increasing the visibility of a website/web page of a web
-            search engine. This mainly involves helping a website/page getting
-            at the top of the search engine results page.
-          </Card.Body>
+          <Card.Body>add answers</Card.Body>
         </Accordion.Collapse>
       </Card>
+
       <Card>
-        <Card.Header>
-          <Accordion.Toggle as={Button} variant="link" eventKey="1">
-            What is ASO?
-          </Accordion.Toggle>
-        </Card.Header>
+        <Accordion.Toggle as={Button} variant="link" eventKey="1">
+          <Card.Header
+            style={{
+              background: "linear-gradient(45deg,#082684 ,#0CA0EF)",
+              color: "#FEFEFE",
+            }}
+          >
+            How to Register?
+          </Card.Header>
+        </Accordion.Toggle>
         <Accordion.Collapse eventKey="1">
-          <Card.Body>
-            ASO is the process of increasing the visibility of a mobile
-            application in the App Store/Play Store environment. This involves
-            helping the app get ranked in the App search in the store.
-          </Card.Body>
+          <Card.Body>add answers</Card.Body>
         </Accordion.Collapse>
       </Card>
+
       <Card>
-        <Card.Header>
-          <Accordion.Toggle as={Button} variant="link" eventKey="2">
-            Can we optimize in the Play Store only?
-          </Accordion.Toggle>
-        </Card.Header>
+        <Accordion.Toggle as={Button} variant="link" eventKey="2">
+          <Card.Header
+            style={{
+              background: "linear-gradient(45deg,#082684 ,#0CA0EF)",
+              color: "#FEFEFE",
+            }}
+          >
+            Do I need to pay for the Startup Hub services?
+          </Card.Header>
+        </Accordion.Toggle>
         <Accordion.Collapse eventKey="2">
-          <Card.Body>
-            Yes. you may get only the Play Store optimization if you wish to.
-            You will not be charged for the whole ASO optimization package as
-            you only request for Play Store Optimization
-          </Card.Body>
+          <Card.Body>add answers</Card.Body>
         </Accordion.Collapse>
       </Card>
+
       <Card>
-        <Card.Header>
-          <Accordion.Toggle as={Button} variant="link" eventKey="3">
-            Can we optimize in the App Store only?
-          </Accordion.Toggle>
-        </Card.Header>
+        <Accordion.Toggle as={Button} variant="link" eventKey="3">
+          <Card.Header
+            style={{
+              background: "linear-gradient(45deg,#082684 ,#0CA0EF)",
+              color: "#FEFEFE",
+            }}
+          >
+            Do I have to travel to Uva for registrations?
+          </Card.Header>
+        </Accordion.Toggle>
         <Accordion.Collapse eventKey="3">
-          <Card.Body>
-            Yes. you may get only the App Store optimization if you wish to. You
-            will not be charged for the whole ASO optimization package as you
-            only request for App Store Optimization
-          </Card.Body>
-        </Accordion.Collapse>
-      </Card>
-      <Card>
-        <Card.Header>
-          <Accordion.Toggle as={Button} variant="link" eventKey="4">
-            Do you offer a flat rate for SEO?
-          </Accordion.Toggle>
-        </Card.Header>
-        <Accordion.Collapse eventKey="4">
-          <Card.Body>
-            Yes. we do depending on the project. Reach us via hello@insfra.com
-            to check your project’s eligibility.
-          </Card.Body>
+          <Card.Body>add answers</Card.Body>
         </Accordion.Collapse>
       </Card>
     </Accordion>
