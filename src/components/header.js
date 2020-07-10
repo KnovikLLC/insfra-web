@@ -31,6 +31,12 @@ const Header = () => (
         <Nav.Link style={{  }} href="/entraprenureship/">
         Entrepreneurship
         </Nav.Link>
+        <Nav.Link style={{  }} href="/blog/">
+          Blog
+        </Nav.Link>
+        <Nav.Link style={{  }} href="/news/">
+          News
+        </Nav.Link>
         <Nav.Link style={{  }} href="/ourteam/">
           Our Team
         </Nav.Link>
@@ -44,9 +50,9 @@ const Header = () => (
           Contact Us
         </Nav.Link>
       </Nav>
-      {/* <Button href="/explore/" variant="success">
-        Explore Website
-      </Button> */}
+      <Button href="https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&source=mailto&to=hello@insfra.com" variant="primary">
+        Write to Insfra
+      </Button>
     </Navbar.Collapse>
   </Navbar>
 );
