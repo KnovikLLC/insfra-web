@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
-
-import { Card, CardGroup, Container, Row, Col, Button } from "react-bootstrap";
+import { Card, CardGroup, Row, Col, Button, CardDeck } from "react-bootstrap";
 import Layout from "../components/homeLayout.js";
 import Image from "../components/image";
 import SEO from "../components/seo";
@@ -14,42 +13,83 @@ const IndexPage = () => (
 
     <Row>
       <Col>
-        <CardGroup>
-          <Card style={{ backgroundColor: "#ffe0b2" }}>
+        <CardDeck>
+          <Card style={{ backgroundColor: "#FFFFFF" }}>
             <Card.Body>
-              <Seoimage />
-              <Card.Title as={"h2"}>SEO</Card.Title>
-              <Card.Text style={{ textAlign: "justify" }}>
-                This is a wider card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
+              <h1 style={{ marginTop: "5px" }}>SEO/ASO</h1>
+              <Card.Text
+                style={{
+                  textAlign: "justify",
+                  position: "absolute",
+                  zIndex: "999",
+                  top: "515px",
+                  left: "35px",
+                  color: "#FFFFFF",
+                  width: "85%",
+                  fontSize: "25px",
+                  margin: "5px auto",
+                }}
+              >
+                Come on in; All who want to be ranked in Search Engine/App Store
+                & Play Store
               </Card.Text>
+              <Seoimage />
+              <br />
               <div style={{ textAlign: "center" }}>
                 <Link to="/seo">
-                  <Button variant="primary">Explore SEO Service</Button>{" "}
+                  <div className="card-body gradient-buttons">
+                    <button
+                      type="button"
+                      className="btn btn-primary"
+                      style={{ width: "100%", fontSize: "25px" }}
+                    >
+                      {" "}
+                      Explore SEO/ASO Service
+                    </button>
+                  </div>
                 </Link>
               </div>
             </Card.Body>
           </Card>
-          <Card style={{ backgroundColor: "#ffe0b2" }}>
+          <Card style={{ backgroundColor: "#FFFFFF" }}>
             <Card.Body>
+              <h1 style={{ marginTop: "5px" }}>Entrepreneurship</h1>
               <Entraimage />
-              <Card.Title as={"h2"}>Entraprenureship</Card.Title>
-              <Card.Text style={{ textAlign: "justify" }}>
-                This is a wider card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
+              <br />
+              {/* <Card.Title as={"h2"}>Entraprenureship</Card.Title> */}
+              <Card.Text
+                style={{
+                  textAlign: "justify",
+                  position: "absolute",
+                  zIndex: "999",
+                  top: "515px",
+                  left: "35px",
+                  color: "#FFFFFF",
+                  width: "85%",
+                  fontSize: "25px",
+                  margin: "5px auto",
+                }}
+              >
+                Welcome board; All who are passionate to form a business of
+                their own and earn
               </Card.Text>
               <div style={{ textAlign: "center" }}>
                 <Link to="/entraprenureship">
-                  <Button variant="primary">
-                    Explore Entraprenureship Service
-                  </Button>{" "}
+                  <div className="card-body gradient-buttons">
+                    <button
+                      type="button"
+                      className="btn btn-primary"
+                      style={{ width: "100%", fontSize: "25px" }}
+                    >
+                      {" "}
+                      Explore Entrepreneurship Service
+                    </button>
+                  </div>
                 </Link>
               </div>
             </Card.Body>
           </Card>
-        </CardGroup>
+        </CardDeck>
       </Col>
     </Row>
     {/* <Row style={{marginBottom:"0px important", backgroundColor:"red"}}><footer>

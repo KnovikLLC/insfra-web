@@ -36,12 +36,11 @@ const Layout = ({ children }) => {
 
       <div
         style={{
-          margin: `auto auto`,
-          maxWidth: 'auto',
-          // padding: `0 0.0875rem 1.45rem`,
+          margin: `0 auto`,
+          maxWidth: 1200,
+          padding: `0 1.0875rem 1.45rem`,
         }}
       >
-       
         <main>{children}</main>
         {/* <Container style={{marginBottom:"0 important"}}><Row><footer>
           © {new Date().getFullYear()}, Built with
@@ -50,35 +49,38 @@ const Layout = ({ children }) => {
         </footer></Row></Container> */}
       </div>
       <footer>
-        <div className="commonFooter" >
+        <div className="commonFooter">
           <Row>
             <Col md={9}>
-              <Navbar bg="dark" variant="dark" expand="lg" >
+              <Navbar bg="dark" variant="dark" expand="lg">
                 <Navbar.Brand href="/"></Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
-                  <Nav className="mr-auto" style={{ fontSize: "25px" }}>
+                  <Nav className="mr-auto" style={{ fontSize: "20px" }}>
                     <Nav.Link href="/">Home</Nav.Link>
 
                     <Nav.Link style={{ marginLeft: "30px" }} href="/seo">
                       SEO/ASO
                     </Nav.Link>
-                    <Nav.Link
-                      style={{  }}
-                      href="/entraprenureship/"
-                    >
-                     Entrepreneurship
+                    <Nav.Link style={{}} href="/entraprenureship/">
+                      Entrepreneurship
                     </Nav.Link>
-                    <Nav.Link style={{  }} href="/ourteam/">
+                    <Nav.Link style={{}} href="/blog/">
+                      Blog
+                    </Nav.Link>
+                    <Nav.Link style={{}} href="/news/">
+                      News & Events
+                    </Nav.Link>
+                    <Nav.Link style={{}} href="/ourteam/">
                       Our Team
                     </Nav.Link>
-                    <Nav.Link style={{  }} href="/careers/">
+                    <Nav.Link style={{}} href="/careers/">
                       Careers
                     </Nav.Link>
-                    <Nav.Link style={{  }} href="/about/">
+                    <Nav.Link style={{}} href="/about/">
                       About Us
                     </Nav.Link>
-                    <Nav.Link style={{  }} href="/contact/">
+                    <Nav.Link style={{}} href="/contact/">
                       Contact Us
                     </Nav.Link>
                   </Nav>

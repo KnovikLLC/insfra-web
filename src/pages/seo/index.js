@@ -494,6 +494,7 @@ const SeoPage = () => (
         </Accordion.Collapse>
       </Card>
     </Accordion>
+    
   </Layout>
 );
 

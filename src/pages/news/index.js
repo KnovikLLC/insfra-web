@@ -30,7 +30,7 @@ import WhyUs3 from "../../components/images/entreprenureship/proven";
 const EntraprenureshipPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Entrepreneurship</h1>
+    <h1>Latest News</h1>
     <Carousel>
       <Carousel.Item>
         <One />

@@ -23,9 +23,9 @@ const Header = () => (
       >
       
       </Nav>
-      {/* <Button href="/explore/" variant="success">
-        Explore Website
-      </Button> */}
+      <Button href="https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&source=mailto&to=hello@insfra.com" variant="primary">
+        Write to Insfra
+      </Button>
     </Navbar.Collapse>
   </Navbar>
 );
