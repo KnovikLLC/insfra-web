@@ -83,7 +83,7 @@ const SeoPage = () => (
           <Card.Title>
             <h2>Search Engine Optimization</h2>
           </Card.Title>
-          
+
           <iframe
             width="791"
             height="445"
@@ -340,7 +340,6 @@ const SeoPage = () => (
     <br />
     <h2>Top Articles from SEO/ASO blog</h2>
     <CardDeck>
-     
       <CardDeck>
         <Card>
           <Card.Img
@@ -384,20 +383,13 @@ const SeoPage = () => (
         </Card>
       </CardDeck>
     </CardDeck>
-    <br/>
-    <br/>
+    <br />
+    <br />
     <h2>FAQs</h2>
-    <Accordion>
+    <Accordion defaultActiveKey="0">
       <Card>
-        <Accordion.Toggle as={Button} variant="link" eventKey="0">
-          <Card.Header
-            style={{
-              background: "linear-gradient(45deg,#082684 ,#0CA0EF)",
-              color: "#FEFEFE",
-            }}
-          >
-            What is SEO?
-          </Card.Header>
+        <Accordion.Toggle  as={Card.Header} eventKey="0">
+         What is SEO?
         </Accordion.Toggle>
 
         <Accordion.Collapse eventKey="0">
@@ -411,15 +403,8 @@ const SeoPage = () => (
       </Card>
 
       <Card>
-        <Accordion.Toggle as={Button} variant="link" eventKey="1">
-          <Card.Header
-            style={{
-              background: "linear-gradient(45deg,#082684 ,#0CA0EF)",
-              color: "#FEFEFE",
-            }}
-          >
-            What is ASO?
-          </Card.Header>
+        <Accordion.Toggle  as={Card.Header} eventKey="1">
+          What is ASO?
         </Accordion.Toggle>
         <Accordion.Collapse eventKey="1">
           <Card.Body>
@@ -431,15 +416,8 @@ const SeoPage = () => (
       </Card>
 
       <Card>
-        <Accordion.Toggle as={Button} variant="link" eventKey="2">
-          <Card.Header
-            style={{
-              background: "linear-gradient(45deg,#082684 ,#0CA0EF)",
-              color: "#FEFEFE",
-            }}
-          >
-            Can we optimize in the Play Store only?
-          </Card.Header>
+        <Accordion.Toggle as={Card.Header} eventKey="2">
+         Can we optimize in the Play Store only?
         </Accordion.Toggle>
         <Accordion.Collapse eventKey="2">
           <Card.Body>
@@ -450,19 +428,15 @@ const SeoPage = () => (
         </Accordion.Collapse>
       </Card>
 
+     
+
       <Card>
-        <Accordion.Toggle as={Button} variant="link" eventKey="3">
-          <Card.Header
-            style={{
-              background: "linear-gradient(45deg,#082684 ,#0CA0EF)",
-              color: "#FEFEFE",
-            }}
-          >
-            Can we optimize in the App Store only?
-          </Card.Header>
+        <Accordion.Toggle as={Card.Header} eventKey="3">
+          Can we optimize in the App Store only?
         </Accordion.Toggle>
         <Accordion.Collapse eventKey="3">
           <Card.Body>
+            {" "}
             Yes. you may get only the App Store optimization if you wish to. You
             will not be charged for the whole ASO optimization package as you
             only request for App Store Optimization
@@ -471,30 +445,18 @@ const SeoPage = () => (
       </Card>
 
       <Card>
-        <Accordion.Toggle
-          as={Button}
-          variant="link"
-          eventKey="4"
-          textDecoration="none"
-        >
-          <Card.Header
-            style={{
-              background: "linear-gradient(45deg,#082684 ,#0CA0EF)",
-              color: "#FEFEFE",
-            }}
-          >
-            Do you offer a flat rate for SEO?
-          </Card.Header>
+        <Accordion.Toggle as={Card.Header} eventKey="4">
+          Do you offer a flat rate for SEO?
         </Accordion.Toggle>
         <Accordion.Collapse eventKey="4">
           <Card.Body>
+            {" "}
             Yes. we do depending on the project. Reach us via hello@insfra.com
             to check your project’s eligibility.
           </Card.Body>
         </Accordion.Collapse>
       </Card>
     </Accordion>
-    
   </Layout>
 );
 

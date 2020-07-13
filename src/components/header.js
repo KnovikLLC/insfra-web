@@ -6,6 +6,7 @@ import { Button, Nav, Navbar } from "react-bootstrap";
 const Header = () => (
   <Navbar bg="dark" variant="dark" expand="lg" sticky="top">
     <Navbar.Brand href="/">
+      <div style={{ margin: "0px 70px 0px 0px"}}>
       <img
         id="navbar-logo"
         alt="Insfra Logo"
@@ -13,8 +14,10 @@ const Header = () => (
         width="200px"
         height="50px"
        
+       
         className="d-inline-block"
       />
+      </div>
     </Navbar.Brand>
   
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -35,7 +38,7 @@ const Header = () => (
           Blog
         </Nav.Link>
         <Nav.Link style={{  }} href="/news/">
-          News
+          News & Events
         </Nav.Link>
         <Nav.Link style={{  }} href="/ourteam/">
           Our Team

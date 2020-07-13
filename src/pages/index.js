@@ -22,16 +22,25 @@ const IndexPage = () => (
                   textAlign: "justify",
                   position: "absolute",
                   zIndex: "999",
-                  top: "515px",
-                  left: "35px",
+                  top: "465px",
+                  left: "40px",
                   color: "#FFFFFF",
                   width: "85%",
-                  fontSize: "25px",
+                  fontSize: "21px",
                   margin: "5px auto",
                 }}
               >
-                Come on in; All who want to be ranked in Search Engine/App Store
-                & Play Store
+                <p
+                  style={{
+                    textAlign: "justify",
+                    fontWeight: "600",
+                    fontSize: "30px",
+                  }}
+                >
+                  Come on in !
+                </p>{" "}
+                All who want to be ranked in Search Engine/App Store & Play
+                Store
               </Card.Text>
               <Seoimage />
               <br />
@@ -51,7 +60,7 @@ const IndexPage = () => (
               </div>
             </Card.Body>
           </Card>
-          <Card style={{ backgroundColor: "#FFFFFF" }}>
+          <Card style={{ backgroundColor: "#FFFFFF", boxShadow: "0" }}>
             <Card.Body>
               <h1 style={{ marginTop: "5px" }}>Entrepreneurship</h1>
               <Entraimage />
@@ -62,16 +71,24 @@ const IndexPage = () => (
                   textAlign: "justify",
                   position: "absolute",
                   zIndex: "999",
-                  top: "515px",
-                  left: "35px",
+                  top: "465px",
+                  left: "40px",
                   color: "#FFFFFF",
                   width: "85%",
-                  fontSize: "25px",
+                  fontSize: "21px",
                   margin: "5px auto",
                 }}
               >
-                Welcome board; All who are passionate to form a business of
-                their own and earn
+                <p
+                  style={{
+                    textAlign: "justify",
+                    fontWeight: "600",
+                    fontSize: "30px",
+                  }}
+                >
+                  Welcome board !
+                </p>
+                All who are passionate to form a business of their own and earn
               </Card.Text>
               <div style={{ textAlign: "center" }}>
                 <Link to="/entraprenureship">
