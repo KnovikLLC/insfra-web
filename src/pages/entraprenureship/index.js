@@ -266,9 +266,7 @@ const EntraprenureshipPage = () => (
     <Accordion>
       <Card>
         <Accordion.Toggle as={Card.Header} eventKey="0">
-         
-            What is Startup Hub?
-         
+          What is Startup Hub?
         </Accordion.Toggle>
 
         <Accordion.Collapse eventKey="0">
@@ -283,9 +281,7 @@ const EntraprenureshipPage = () => (
 
       <Card>
         <Accordion.Toggle as={Card.Header} eventKey="1">
-          
-            How to Register?
-         
+          How to Register?
         </Accordion.Toggle>
         <Accordion.Collapse eventKey="1">
           <Card.Body>
@@ -298,9 +294,7 @@ const EntraprenureshipPage = () => (
 
       <Card>
         <Accordion.Toggle as={Card.Header} eventKey="2">
-          
-            Do I need to pay for the Startup Hub services?
-          
+          Do I need to pay for the Startup Hub services?
         </Accordion.Toggle>
         <Accordion.Collapse eventKey="2">
           <Card.Body>
@@ -311,9 +305,7 @@ const EntraprenureshipPage = () => (
 
       <Card>
         <Accordion.Toggle as={Card.Header} eventKey="3">
-         
-            Do I have to travel to Uva for registrations?
-          
+          Do I have to travel to Uva for registrations?
         </Accordion.Toggle>
         <Accordion.Collapse eventKey="3">
           <Card.Body>No. You may reach us via email.</Card.Body>

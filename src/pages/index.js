@@ -60,7 +60,7 @@ const IndexPage = () => (
               </div>
             </Card.Body>
           </Card>
-          <Card style={{ backgroundColor: "#FFFFFF",boxShadow: "0"}}>
+          <Card style={{ backgroundColor: "#FFFFFF", boxShadow: "0" }}>
             <Card.Body>
               <h1 style={{ marginTop: "5px" }}>Entrepreneurship</h1>
               <Entraimage />

@@ -73,8 +73,7 @@ const EntraprenureshipPage = () => (
     <br />
 
     <h1>Meet our key team members</h1>
-    
-   
+
     <CardDeck>
       <Card>
         <Card.Img
@@ -169,7 +168,6 @@ const EntraprenureshipPage = () => (
 
       <CardDeck>
         <Card>
-         
           <Card.Body>
             <Card.Title>Badulla</Card.Title>
             <Card.Text>
@@ -177,13 +175,9 @@ const EntraprenureshipPage = () => (
               head office of Insfra we have to seperate departments as
               Administration and Marketing.
             </Card.Text>
-            
           </Card.Body>
-          
-                            
         </Card>
         <Card>
-         
           <Card.Body>
             <Card.Title>Nugegoda</Card.Title>
             <Card.Text>
@@ -198,7 +192,6 @@ const EntraprenureshipPage = () => (
           />
         </Card>
         <Card>
-          
           <Card.Body>
             <Card.Title>Maharagama</Card.Title>
             <Card.Text>
@@ -214,10 +207,8 @@ const EntraprenureshipPage = () => (
         </Card>
       </CardDeck>
       <br />
-     
     </CardDeck>
 
-    
     <CardDeck>
       <Card>
         <Card.Body>
@@ -225,35 +216,35 @@ const EntraprenureshipPage = () => (
             <Row>
               <Col>
                 <Card.Title>
-                  <h1 style={{textAlign:"center"}}>hello@insfra.com</h1>
+                  <h1 style={{ textAlign: "center" }}>hello@insfra.com</h1>
                 </Card.Title>
 
-                <Card.Text style={{textAlign:"center"}}>
-                We welcome your inquiries and calls for quotations. Email us now to let us help you best in your business
+                <Card.Text style={{ textAlign: "center" }}>
+                  We welcome your inquiries and calls for quotations. Email us
+                  now to let us help you best in your business
                 </Card.Text>
                 <div className="card-body gradient-buttons">
-          <button
-            type="button"
-            className="btn btn-primary"
-            style={{ width: "50%",textAlign:"center" }}
-          >
-            {" "}
-            Contact Now
-          </button>
-        </div>
+                  <button
+                    type="button"
+                    className="btn btn-primary"
+                    style={{ width: "50%", textAlign: "center" }}
+                  >
+                    {" "}
+                    Contact Now
+                  </button>
+                </div>
               </Col>
               <Col>
-               <h1 style={{textAlign:"center"}}>
-               To make requests for further information, Do not hesitate to contact us.
-               </h1>
-                
+                <h1 style={{ textAlign: "center" }}>
+                  To make requests for further information, Do not hesitate to
+                  contact us.
+                </h1>
               </Col>
             </Row>
           </Container>
         </Card.Body>
       </Card>
     </CardDeck>
-    
   </Layout>
 );
 
