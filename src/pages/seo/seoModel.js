@@ -7,8 +7,8 @@ import DialogContentText from "@material-ui/core/DialogContentText";
 import DialogTitle from "@material-ui/core/DialogTitle";
 import { makeStyles } from "@material-ui/core/styles";
 import Paper from "@material-ui/core/Paper";
-import Grid from "@material-ui/core/Grid";
-import CloseIcon from '@material-ui/icons/Close';
+
+import CloseIcon from "@material-ui/icons/Close";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -20,21 +20,17 @@ const useStyles = makeStyles((theme) => ({
     color: theme.palette.text.secondary,
     backgroundColor: "#dee2e6",
   },
-  title:{
+  title: {
     backgroundColor: "#dee2e6",
     fontWeight: "600",
-    
-
   },
-  btnClose:{
+  btnClose: {
     marginLeft: "80px",
-  
   },
-  btnGetQuote:{
-    marginLeft:"20px",
-    justifyContent: 'center'
-   
-   }
+  btnGetQuote: {
+    marginLeft: "20px",
+    justifyContent: "center",
+  },
 }));
 export default function ScrollDialog() {
   const classes = useStyles();
@@ -75,8 +71,8 @@ export default function ScrollDialog() {
       >
         <DialogTitle id="scroll-dialog-title" className={classes.title}>
           SEO Getting ranked in Search Results?
-          <Button onClick={handleClose} className={classes.btnClose} >
-          <CloseIcon/>
+          <Button onClick={handleClose} className={classes.btnClose}>
+            <CloseIcon />
           </Button>
         </DialogTitle>
         <DialogContent dividers={scroll === "paper"}>
@@ -87,76 +83,72 @@ export default function ScrollDialog() {
           >
             <Paper className={classes.paper}> Market research</Paper>
             <br />
-            
-              <ul>
-                
-                <li>Market analysis</li>
-                <li>Competitor analysis</li>
-                
-                <li>Keyword analysis</li>
-                <li>Filling keyword gaps</li>
-                <li>Optimized navigation through sales funnel</li>
-              </ul>
-            
+
+            <ul>
+              <li>Market analysis</li>
+              <li>Competitor analysis</li>
+
+              <li>Keyword analysis</li>
+              <li>Filling keyword gaps</li>
+              <li>Optimized navigation through sales funnel</li>
+            </ul>
+
             <Paper className={classes.paper}> On page optimization</Paper>
             <br />
-            
-              <ul>
-                <li>Powerful and Compelling Headings/Subheadings</li>
-                <li>Placement of compelling meta keywording</li>
-                <li>Keyword placement through Sales Funnel</li>
-                <li>Restructuring URL issues</li>
-                <li>Site mapping </li>
-                <li>Google Analytics integration</li>
-                <li>Google webmaster tool integration</li>
-                <li>Fixing Page Speed issues</li>
-                <li>Optimizing images</li>
-                <li>Internal link building</li>
-                <li>Yahoo, Bing, Yaindex, Keyword optimization</li>
-                <li>Yahoo, Bing, Yaindex analytics setup</li>
-                <li>Content Translation</li>
-                <li>404 redirection</li>
-              </ul>
-            
+
+            <ul>
+              <li>Powerful and Compelling Headings/Subheadings</li>
+              <li>Placement of compelling meta keywording</li>
+              <li>Keyword placement through Sales Funnel</li>
+              <li>Restructuring URL issues</li>
+              <li>Site mapping </li>
+              <li>Google Analytics integration</li>
+              <li>Google webmaster tool integration</li>
+              <li>Fixing Page Speed issues</li>
+              <li>Optimizing images</li>
+              <li>Internal link building</li>
+              <li>Yahoo, Bing, Yaindex, Keyword optimization</li>
+              <li>Yahoo, Bing, Yaindex analytics setup</li>
+              <li>Content Translation</li>
+              <li>404 redirection</li>
+            </ul>
+
             <Paper className={classes.paper}>Off Page optimization</Paper>
-            
-              <br />
-              <ul>
-                <li>Relevant backlinking</li>
-                <li>Social Media Channel setup</li>
-                <li>Forum integration</li>
-                <li>Guest blogging</li>
-                <li>Brand Mentioning </li>
-                <li>Optimized and Effective social profile descriptions</li>
-              </ul>
-              <Paper className={classes.paper}>WIX /Wordpress SEO</Paper>
-            
-              <br />
-              <ul>
-                <li>Compelling Headings and Meta tags</li>
-                <li>Keyword research</li>
-                <li>Keyword Optimization (On Page)</li>
-                <li>Social Media Channel Setup</li>
-                <li>Google Analytics integration</li>
-                <li>Google webmaster tool integration</li>
-                <li>Rent Server Space </li>
-              </ul>
-              
-            
+
+            <br />
+            <ul>
+              <li>Relevant backlinking</li>
+              <li>Social Media Channel setup</li>
+              <li>Forum integration</li>
+              <li>Guest blogging</li>
+              <li>Brand Mentioning </li>
+              <li>Optimized and Effective social profile descriptions</li>
+            </ul>
+            <Paper className={classes.paper}>WIX /Wordpress SEO</Paper>
+
+            <br />
+            <ul>
+              <li>Compelling Headings and Meta tags</li>
+              <li>Keyword research</li>
+              <li>Keyword Optimization (On Page)</li>
+              <li>Social Media Channel Setup</li>
+              <li>Google Analytics integration</li>
+              <li>Google webmaster tool integration</li>
+              <li>Rent Server Space </li>
+            </ul>
           </DialogContentText>
         </DialogContent>
-        <DialogActions >
-         
-        <div class="card-body gradient-buttons">
-          <button
-            type="button"
-            class="btn btn-primary"
-            style={{ marginLeft: "400px", marginright: "auto" }}
-          >
-            {" "}
-            Get a quote
-          </button>
-        </div>
+        <DialogActions>
+          <div class="card-body gradient-buttons">
+            <button
+              type="button"
+              class="btn btn-primary"
+              style={{ marginLeft: "400px", marginright: "auto" }}
+            >
+              {" "}
+              Get a quote
+            </button>
+          </div>
         </DialogActions>
       </Dialog>
     </div>

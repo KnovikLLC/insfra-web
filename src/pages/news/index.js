@@ -1,22 +1,15 @@
 import React from "react";
-import { Link } from "gatsby";
+
 import { Calendar2, GeoAlt, Tag } from "react-bootstrap-icons";
 
 import {
   Card,
-  CardGroup,
-  Container,
-  Row,
-  Col,
-  Button,
+  
   CardDeck,
-  Carousel,
-  Alert,
-  Jumbotron,
-  Accordion,
+  
 } from "react-bootstrap";
 import Layout from "../../components/layout";
-import Image from "../../components/image";
+
 import SEO from "../../components/seo";
 
 const EntraprenureshipPage = () => (

@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "gatsby";
-import { Card, CardGroup, Row, Col, Button, CardDeck } from "react-bootstrap";
+import { Card, Row, Col, CardDeck } from "react-bootstrap";
 import Layout from "../components/homeLayout.js";
-import Image from "../components/image";
+
 import SEO from "../components/seo";
 import Seoimage from "../components/images/home/seoimage";
 import Entraimage from "../components/images/home/entraimage";

@@ -1,32 +1,21 @@
 import React from "react";
-import { Link } from "gatsby";
-import {
-  ArrowRightCircle,
-  Award,
-  CheckAll,
-  Check2Circle,
-  CheckSquare,
-} from "react-bootstrap-icons";
+
+import { Check2Circle } from "react-bootstrap-icons";
 
 import {
   Card,
-  CardGroup,
-  Container,
   Row,
   Col,
   Button,
   CardDeck,
   Carousel,
-  Alert,
-  Jumbotron,
   Accordion,
-  Image,
 } from "react-bootstrap";
 //import LayoutPage from "../../components/layoutpages";
 import Layout from "../../components/layout";
 
 import SEO from "../../components/seo";
-import Seoimage from "../../components/images/home/seoimage";
+
 import One from "../../components/images/seo/1";
 import Two from "../../components/images/seo/2";
 import Three from "../../components/images/seo/3";
@@ -85,8 +74,8 @@ const SeoPage = () => (
           </Card.Title>
 
           <iframe
-            width="791"
-            height="445"
+            // width="791"
+            // height="445"
             src="https://www.youtube.com/embed/WP8fv5HcN4U"
             frameBorder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -108,8 +97,8 @@ const SeoPage = () => (
           </Card.Title>
 
           <iframe
-            width="791"
-            height="445"
+            // width="791"
+            // height="445"
             src="https://www.youtube.com/embed/nKt8njedt3g"
             frameBorder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -388,8 +377,17 @@ const SeoPage = () => (
     <h2>FAQs</h2>
     <Accordion defaultActiveKey="0">
       <Card>
-        <Accordion.Toggle  as={Card.Header} eventKey="0">
-         What is SEO?
+        <Accordion.Toggle
+          as={Button}
+          eventKey="0"
+          style={{
+            backgroundColor: "#FDFDFE",
+            color: "#000000",
+            borderColor: "#FDFDFE",
+            textAlign: "left",
+          }}
+        >
+          What is SEO?
         </Accordion.Toggle>
 
         <Accordion.Collapse eventKey="0">
@@ -403,7 +401,16 @@ const SeoPage = () => (
       </Card>
 
       <Card>
-        <Accordion.Toggle  as={Card.Header} eventKey="1">
+        <Accordion.Toggle
+          as={Button}
+          eventKey="1"
+          style={{
+            backgroundColor: "#FDFDFE",
+            color: "#000000",
+            borderColor: "#FDFDFE",
+            textAlign: "left",
+          }}
+        >
           What is ASO?
         </Accordion.Toggle>
         <Accordion.Collapse eventKey="1">
@@ -416,8 +423,17 @@ const SeoPage = () => (
       </Card>
 
       <Card>
-        <Accordion.Toggle as={Card.Header} eventKey="2">
-         Can we optimize in the Play Store only?
+        <Accordion.Toggle
+          as={Button}
+          eventKey="2"
+          style={{
+            backgroundColor: "#FDFDFE",
+            color: "#000000",
+            borderColor: "#FDFDFE",
+            textAlign: "left",
+          }}
+        >
+          Can we optimize in the Play Store only?
         </Accordion.Toggle>
         <Accordion.Collapse eventKey="2">
           <Card.Body>
@@ -428,10 +444,17 @@ const SeoPage = () => (
         </Accordion.Collapse>
       </Card>
 
-     
-
       <Card>
-        <Accordion.Toggle as={Card.Header} eventKey="3">
+        <Accordion.Toggle
+          as={Button}
+          eventKey="3"
+          style={{
+            backgroundColor: "#FDFDFE",
+            color: "#000000",
+            borderColor: "#FDFDFE",
+            textAlign: "left",
+          }}
+        >
           Can we optimize in the App Store only?
         </Accordion.Toggle>
         <Accordion.Collapse eventKey="3">
@@ -445,7 +468,16 @@ const SeoPage = () => (
       </Card>
 
       <Card>
-        <Accordion.Toggle as={Card.Header} eventKey="4">
+        <Accordion.Toggle
+          as={Button}
+          eventKey="4"
+          style={{
+            backgroundColor: "#FDFDFE",
+            color: "#000000",
+            borderColor: "#FDFDFE",
+            textAlign: "left",
+          }}
+        >
           Do you offer a flat rate for SEO?
         </Accordion.Toggle>
         <Accordion.Collapse eventKey="4">

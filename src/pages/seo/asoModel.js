@@ -7,7 +7,7 @@ import DialogContentText from "@material-ui/core/DialogContentText";
 import DialogTitle from "@material-ui/core/DialogTitle";
 import { makeStyles } from "@material-ui/core/styles";
 import Paper from "@material-ui/core/Paper";
-import Grid from "@material-ui/core/Grid";
+
 import CloseIcon from "@material-ui/icons/Close";
 
 const useStyles = makeStyles((theme) => ({
@@ -103,34 +103,33 @@ export default function ScrollDialog() {
             <br />
 
             <ul>
-            <li>Getting at the top of the results</li>
-            <li>App Store keyword/Keyphrase Optimization</li>
-            <li>Store Asset Optimization</li>
-            <li>Store Asset Optimization</li>
-            <ul>
-              <li>Create Store Listing Assets according to Guidelines</li>
-              <li>Logo</li>
-              <li>Screenshots</li>
-              <li>Video</li>
+              <li>Getting at the top of the results</li>
+              <li>App Store keyword/Keyphrase Optimization</li>
+              <li>Store Asset Optimization</li>
+              <li>Store Asset Optimization</li>
+              <ul>
+                <li>Create Store Listing Assets according to Guidelines</li>
+                <li>Logo</li>
+                <li>Screenshots</li>
+                <li>Video</li>
+              </ul>
+              <li>Fulfilling all the Play StoreOptimization factors</li>
+              <li>App review and rating management</li>
             </ul>
-            <li>Fulfilling all the Play StoreOptimization factors</li>
-            <li>App review and rating management</li>
-          </ul>
-
-            
           </DialogContentText>
         </DialogContent>
         <DialogActions>
-        <div class="card-body gradient-buttons">
-          <button
-            type="button"
-            class="btn btn-primary"
-            style={{ marginLeft: "400px", marginright: "auto" }}
-          >
-            {" "}
-            Get a quote
-          </button>
-        </div>        </DialogActions>
+          <div class="card-body gradient-buttons">
+            <button
+              type="button"
+              class="btn btn-primary"
+              style={{ marginLeft: "400px", marginright: "auto" }}
+            >
+              {" "}
+              Get a quote
+            </button>
+          </div>{" "}
+        </DialogActions>
       </Dialog>
     </div>
   );

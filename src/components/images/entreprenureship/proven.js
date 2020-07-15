@@ -26,7 +26,7 @@ const Image = () => {
     }
   `)
 
-  return <Img fluid={data.placeholderImage.childImageSharp.fluid} alt="What is SEO"/>
+  return <Img fluid={data.placeholderImage.childImageSharp.fluid} alt="Proven Skills"/>
 }
 
 export default Image
