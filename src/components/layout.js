@@ -8,7 +8,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
-import {Row, Container,Col,Button, Nav, Navbar} from "react-bootstrap"
+import {Row,Col, Nav, Navbar} from "react-bootstrap"
 
 import Header from "./header"
 import "./layout.css"

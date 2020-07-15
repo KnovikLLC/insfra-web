@@ -8,10 +8,10 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { useStaticQuery, graphql } from "gatsby";
-import { Row, Container, Col } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 import Header from "./homeHeader.js";
 import "./layout.css";
-import { Button, Nav, Navbar } from "react-bootstrap";
+import {Nav, Navbar } from "react-bootstrap";
 
 import FacebookLogo from "../images/social/facebook.png";
 import InstagramLogo from "../images/social/instagram.png";
@@ -93,10 +93,11 @@ const Layout = ({ children }) => {
 
             <h5>Follow us</h5>
             <Col style={{ marginTop: "15px" }}>
-              <a href="https://www.facebook.com/InsfraTechnologies/">
+              <a href="https://www.facebook.com/InsfraTechnologies/" alt="Facebook">
                 <img
                   src={FacebookLogo}
                   style={{ width: "32px", margin: "10px" }}
+                 
                 ></img>
               </a>
               <a href="https://www.pinterest.com/">

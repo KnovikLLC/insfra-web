@@ -1,26 +1,14 @@
 import React from "react";
-import { Link } from "gatsby";
-import { ArrowRightCircle, Award } from "react-bootstrap-icons";
+// import { Link } from "gatsby";
+// import { ArrowRightCircle, Award } from "react-bootstrap-icons";
 
-import {
-  Card,
-  CardGroup,
-  Container,
-  Row,
-  Col,
-  Button,
-  CardDeck,
-  Carousel,
-  Alert,
-  Jumbotron,
-  Accordion,
-} from "react-bootstrap";
+import { Card, Container, Row, Col, CardDeck } from "react-bootstrap";
 import Layout from "../../components/layout";
-import Image from "../../components/image";
+
 import SEO from "../../components/seo";
-import Seoimage from "../../components/images/home/seoimage";
-import One from "../../components/images/seo/1";
-import Two from "../../components/images/seo/2";
+
+import Kosala from "../../components/images/seo/1";
+import Madushanka from "../../components/images/seo/2";
 import WhatMakes from "../../components/images/about/whatmakes";
 
 const EntraprenureshipPage = () => (
@@ -55,8 +43,7 @@ const EntraprenureshipPage = () => (
               </Col>
               <Col>
                 <iframe
-                  width="791"
-                  height="445"
+                 
                   src="https://www.youtube.com/embed/lBgTLAuafqQ"
                   frameBorder="0"
                   allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -119,51 +106,105 @@ const EntraprenureshipPage = () => (
     <br />
     <br />
     <h2>Our Vision & Mission</h2>
-    <CardDeck>
-      <Card>
-        <Card.Body>
-          <Container>
-            <Row>
-              <Col>
-                <Card.Title>
-                  <h4>Vision</h4>
-                </Card.Title>
 
-                <Card.Text style={{ textAlign: "justify" }}>
-                  To be the company that best understands clients’ requirements
-                  and bring them innovative solutions to reach their success
-                  through our services
-                </Card.Text>
-                <Card.Title>
-                  <h4>Mission</h4>
-                </Card.Title>
-                <Card.Text>
-                  Our mission is to enrich businesses with innovative web and
-                  mobile development services while providing digital strategy
-                  to help them gain a broader market share, making the society
-                  more advanced and connected together.
-                </Card.Text>
-              </Col>
-              <Col>
-                <WhatMakes />
-                {/* <iframe
-                  width="791"
-                  height="445"
-                  src="https://www.youtube.com/embed/lBgTLAuafqQ"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                  width="100%"
-                  height="300px"
-                  allowFullScreen
-                ></iframe> */}
-              </Col>
-            </Row>
-          </Container>
-        </Card.Body>
-      </Card>
-    </CardDeck>
+    <Container style={{ maxWidth: "1200px" }}>
+      <Row>
+        <Col sm={6}>
+          <br />
+          <h3>Vision</h3>
+
+          <p style={{ textAlign: "justify" }}>
+            To be the company that best understands clients’ requirements and
+            bring them innovative solutions to reach their success through our
+            services
+          </p>
+
+          <h3>Mission</h3>
+
+          <p>
+            Our mission is to enrich businesses with innovative web and mobile
+            development services while providing digital strategy to help them
+            gain a broader market share, making the society more advanced and
+            connected together.
+          </p>
+        </Col>
+        <Col sm={6}>
+          <p
+            style={{
+              textAlign: "justify",
+              position: "absolute",
+              zIndex: "999",
+              top: "93px",
+              left: "122px",
+
+              width: "85%",
+              fontSize: "21px",
+              margin: "5px auto",
+            }}
+          >
+            <span
+              style={{ fontSize: "2vw", fontWeight: "600", color: "#034BC9" }}
+            >
+              I
+            </span>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <span style={{ fontSize: "1.5vw" }}>nspire people</span>
+            <br />
+            <span
+              style={{ fontSize: "29px", fontWeight: "600", color: "#034BC9" }}
+            >
+              N
+            </span>
+            &nbsp;&nbsp;
+            <span style={{ fontSize: "20px" }}>
+              avigate our clients to success
+            </span>
+            <br />
+            <span
+              style={{ fontSize: "29px", fontWeight: "600", color: "#034BC9" }}
+            >
+              S
+            </span>
+            &nbsp;&nbsp;
+            <span style={{ fontSize: "20px" }}>olve customer problems</span>
+            <br />
+            <span
+              style={{ fontSize: "29px", fontWeight: "600", color: "#034BC9" }}
+            >
+              F
+            </span>
+            &nbsp;&nbsp;
+            <span style={{ fontSize: "20px" }}>
+              acilitate clients in every aspect
+            </span>
+            <br />
+            <span
+              style={{ fontSize: "29px", fontWeight: "600", color: "#034BC9" }}
+            >
+              R
+            </span>
+            &nbsp;&nbsp;
+            <span style={{ fontSize: "20px" }}>edesign future</span>
+            <br />
+            <span
+              style={{ fontSize: "29px", fontWeight: "600", color: "#034BC9" }}
+            >
+              A
+            </span>
+            &nbsp;&nbsp;
+            <span style={{ fontSize: "20px" }}>ppreciate Quality</span>
+            <br />
+          </p>
+
+          <WhatMakes />
+        </Col>
+      </Row>
+    </Container>
+
+    <br />
+    <br />
+    <h2>Check where Insfra is located at.</h2>
     <CardDeck>
-      <h1>Check where Insfra is located at.</h1>
       <br />
 
       <CardDeck>
@@ -176,9 +217,9 @@ const EntraprenureshipPage = () => (
               Administration and Marketing.
             </Card.Text>
             <Card.Img
-            variant="top"
-            src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22286%22%20height%3D%22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20286%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_17292fffbf2%20text%20%7B%20fill%3A%23999%3Bfont-weight%3Anormal%3Bfont-family%3A-apple-system%2CBlinkMacSystemFont%2C%26quot%3BSegoe%20UI%26quot%3B%2CRoboto%2C%26quot%3BHelvetica%20Neue%26quot%3B%2CArial%2C%26quot%3BNoto%20Sans%26quot%3B%2Csans-serif%2C%26quot%3BApple%20Color%20Emoji%26quot%3B%2C%26quot%3BSegoe%20UI%20Emoji%26quot%3B%2C%26quot%3BSegoe%20UI%20Symbol%26quot%3B%2C%26quot%3BNoto%20Color%20Emoji%26quot%3B%2C%20monospace%3Bfont-size%3A14pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_17292fffbf2%22%3E%3Crect%20width%3D%22286%22%20height%3D%22180%22%20fill%3D%22%23373940%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22106.390625%22%20y%3D%2296.3%22%3E286x180%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
-          />
+              variant="top"
+              src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22286%22%20height%3D%22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20286%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_17292fffbf2%20text%20%7B%20fill%3A%23999%3Bfont-weight%3Anormal%3Bfont-family%3A-apple-system%2CBlinkMacSystemFont%2C%26quot%3BSegoe%20UI%26quot%3B%2CRoboto%2C%26quot%3BHelvetica%20Neue%26quot%3B%2CArial%2C%26quot%3BNoto%20Sans%26quot%3B%2Csans-serif%2C%26quot%3BApple%20Color%20Emoji%26quot%3B%2C%26quot%3BSegoe%20UI%20Emoji%26quot%3B%2C%26quot%3BSegoe%20UI%20Symbol%26quot%3B%2C%26quot%3BNoto%20Color%20Emoji%26quot%3B%2C%20monospace%3Bfont-size%3A14pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_17292fffbf2%22%3E%3Crect%20width%3D%22286%22%20height%3D%22180%22%20fill%3D%22%23373940%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22106.390625%22%20y%3D%2296.3%22%3E286x180%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+            />
           </Card.Body>
         </Card>
         <Card>
