@@ -41,35 +41,42 @@ export default function Example() {
       </AccordionItem>
       <AccordionItem>
         <AccordionItemHeading>
-          <AccordionItemButton>Can we optimize in the Play Store only?</AccordionItemButton>
+          <AccordionItemButton>
+            Can we optimize in the Play Store only?
+          </AccordionItemButton>
         </AccordionItemHeading>
         <AccordionItemPanel>
           <p>
-          Yes. you may get only the Play Store optimization if you wish to. You will not be charged for the whole ASO optimization package as you only request for Play Store Optimization
-
-
+            Yes. you may get only the Play Store optimization if you wish to.
+            You will not be charged for the whole ASO optimization package as
+            you only request for Play Store Optimization
           </p>
         </AccordionItemPanel>
       </AccordionItem>
       <AccordionItem>
         <AccordionItemHeading>
-          <AccordionItemButton>Can we optimize in the App Store only?</AccordionItemButton>
+          <AccordionItemButton>
+            Can we optimize in the App Store only?
+          </AccordionItemButton>
         </AccordionItemHeading>
         <AccordionItemPanel>
           <p>
-          Yes. you may get only the App Store optimization if you wish to. You will not be charged for the whole ASO optimization package as you only request for App Store Optimization
-
+            Yes. you may get only the App Store optimization if you wish to. You
+            will not be charged for the whole ASO optimization package as you
+            only request for App Store Optimization
           </p>
         </AccordionItemPanel>
       </AccordionItem>
       <AccordionItem>
         <AccordionItemHeading>
-          <AccordionItemButton>Do you offer a flat rate for SEO?</AccordionItemButton>
+          <AccordionItemButton>
+            Do you offer a flat rate for SEO?
+          </AccordionItemButton>
         </AccordionItemHeading>
         <AccordionItemPanel>
           <p>
-          Yes. we do depending on the project. Reach us via hello@insfra.com to check your project’s eligibility.
-
+            Yes. we do depending on the project. Reach us via hello@insfra.com
+            to check your project’s eligibility.
           </p>
         </AccordionItemPanel>
       </AccordionItem>

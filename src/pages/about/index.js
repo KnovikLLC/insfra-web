@@ -107,7 +107,7 @@ const EntraprenureshipPage = (props) => (
         <div className="overflow">
           <Card.Img
             variant="top"
-            src="http://insfra.com/assets/img/team/Hiroshan.jpg"
+            src="https://insfra.com/assets/img/team/Hiroshan.jpg"
           />
         </div>
         <Card.Body>
@@ -119,7 +119,7 @@ const EntraprenureshipPage = (props) => (
         <div className="overflow">
           <Card.Img
             variant="top"
-            src="http://insfra.com/assets/img/team/Yahani.jpg"
+            src="https://insfra.com/assets/img/team/Yahani.jpg"
           />
         </div>
         <Card.Body>
@@ -131,7 +131,7 @@ const EntraprenureshipPage = (props) => (
         <div className="overflow">
           <Card.Img
             variant="top"
-            src="http://insfra.com/assets/img/team/Neranja.jpg"
+            src="https://insfra.com/assets/img/team/Neranja.jpg"
           />
         </div>
         <Card.Body>
@@ -143,7 +143,7 @@ const EntraprenureshipPage = (props) => (
         <div className="overflow">
           <Card.Img
             variant="top"
-            src="http://insfra.com/assets/img/team/Sashika.jpg"
+            src="https://insfra.com/assets/img/team/Sashika.jpg"
           />
         </div>
         <Card.Body>
@@ -158,7 +158,7 @@ const EntraprenureshipPage = (props) => (
         <div className="overflow">
           <Card.Img
             variant="top"
-            src="http://insfra.com/assets/img/team/mahesh.jpg"
+            src="https://insfra.com/assets/img/team/mahesh.jpg"
           />
         </div>
         <Card.Body>
@@ -170,7 +170,7 @@ const EntraprenureshipPage = (props) => (
         <div className="overflow">
           <Card.Img
             variant="top"
-            src="http://insfra.com/assets/img/team/nilmini.jpg"
+            src="https://insfra.com/assets/img/team/nilmini.jpg"
           />
         </div>
         <Card.Body>
@@ -194,7 +194,7 @@ const EntraprenureshipPage = (props) => (
         <div className="overflow">
           <Card.Img
             variant="top"
-            src="http://insfra.com/assets/img/team/eranga.jpg"
+            src="https://insfra.com/assets/img/team/eranga.jpg"
           />
         </div>
         <Card.Body>
@@ -209,7 +209,7 @@ const EntraprenureshipPage = (props) => (
         <div className="overflow">
           <Card.Img
             variant="top"
-            src="http://insfra.com/assets/img/team/Iro.jpg"
+            src="https://insfra.com/assets/img/team/Iro.jpg"
           />
         </div>
         <Card.Body>
@@ -221,7 +221,7 @@ const EntraprenureshipPage = (props) => (
         <div className="overflow">
           <Card.Img
             variant="top"
-            src="http://insfra.com/assets/img/team/Heshani.jpg"
+            src="https://insfra.com/assets/img/team/Heshani.jpg"
           />
         </div>
         <Card.Body>
@@ -233,7 +233,7 @@ const EntraprenureshipPage = (props) => (
         <div className="overflow">
           <Card.Img
             variant="top"
-            src="http://insfra.com/assets/img/team/Radika.jpg"
+            src="https://insfra.com/assets/img/team/Radika.jpg"
           />
         </div>
         <Card.Body>
@@ -245,7 +245,7 @@ const EntraprenureshipPage = (props) => (
         <div className="overflow">
           <Card.Img
             variant="top"
-            src="http://insfra.com/assets/img/team/Keshani.jpg"
+            src="https://insfra.com/assets/img/team/Keshani.jpg"
           />
         </div>
         <Card.Body>
@@ -260,7 +260,7 @@ const EntraprenureshipPage = (props) => (
         <div className="overflow">
           <Card.Img
             variant="top"
-            src="http://insfra.com/assets/img/team/nipuna.jpg"
+            src="https://insfra.com/assets/img/team/nipuna.jpg"
           />
         </div>
         <Card.Body>
@@ -272,7 +272,7 @@ const EntraprenureshipPage = (props) => (
         <div className="overflow">
           <Card.Img
             variant="top"
-            src="http://insfra.com/assets/img/team/Iresha.jpg"
+            src="https://insfra.com/assets/img/team/Iresha.jpg"
           />
         </div>
         <Card.Body>
@@ -284,7 +284,7 @@ const EntraprenureshipPage = (props) => (
         <div className="overflow">
           <Card.Img
             variant="top"
-            src="http://insfra.com/assets/img/team/Sashitha.jpg"
+            src="https://insfra.com/assets/img/team/Sashitha.jpg"
           />
         </div>
         <Card.Body>
@@ -296,7 +296,7 @@ const EntraprenureshipPage = (props) => (
         <div className="overflow">
           <Card.Img
             variant="top"
-            src="http://insfra.com/assets/img/team/eranda.jpg"
+            src="https://insfra.com/assets/img/team/eranda.jpg"
           />
         </div>
         <Card.Body>
@@ -311,7 +311,7 @@ const EntraprenureshipPage = (props) => (
         <div className="overflow">
           <Card.Img
             variant="top"
-            src="http://insfra.com/assets/img/team/chandana.jpg"
+            src="https://insfra.com/assets/img/team/chandana.jpg"
           />
         </div>
         <Card.Body>
@@ -323,7 +323,7 @@ const EntraprenureshipPage = (props) => (
         <div className="overflow">
           <Card.Img
             variant="top"
-            src="http://insfra.com/assets/img/team/rinu.jpg"
+            src="https://insfra.com/assets/img/team/rinu.jpg"
           />
         </div>
         <Card.Body>
@@ -335,7 +335,7 @@ const EntraprenureshipPage = (props) => (
         <div className="overflow">
           <Card.Img
             variant="top"
-            src="http://insfra.com/assets/img/team/Bevindya.jpg"
+            src="https://insfra.com/assets/img/team/Bevindya.jpg"
           />
         </div>
         <Card.Body>
@@ -347,7 +347,7 @@ const EntraprenureshipPage = (props) => (
         <div className="overflow">
           <Card.Img
             variant="top"
-            src="http://insfra.com/assets/img/team/isuru.jpg"
+            src="https://insfra.com/assets/img/team/isuru.jpg"
           />
         </div>
         <Card.Body>
@@ -531,10 +531,10 @@ const EntraprenureshipPage = (props) => (
         </Col>
       </Row>
     </Container>
-<br/>
-<br/>
-<br/>
-<br/>
+    <br />
+    <br />
+    <br />
+    <br />
     <Container>
       <Row>
         <Col style={{ width: "50%", textAlign: "center" }}>
@@ -563,9 +563,9 @@ const EntraprenureshipPage = (props) => (
         </Col>
       </Row>
     </Container>
- 
-<br/>
-<br/>
+
+    <br />
+    <br />
   </Layout>
 );
 
