@@ -14,34 +14,34 @@ const IndexPage = () => (
     <Row>
       <Col>
         <CardDeck>
-          <Card style={{ backgroundColor: "#FFFFFF" }}>
+          <Card style={{ backgroundColor: "#FFFFFF",boxShadow:"0px 0px 0px 0px rgba(0,0,0,0)" }}>
             <Card.Body>
               <h1 style={{ marginTop: "5px" }}>SEO/ASO</h1>
               <Card.Text
+                // style={{
+                //   textAlign: "justify",
+                //   position: "absolute",
+                //   zIndex: "999",
+                //   top: "465px",
+                //   left: "40px",
+                //   color: "#FFFFFF",
+                //   width: "85%",
+                //   fontSize: "21px",
+                //   margin: "5px auto",
+                // }}
                 style={{
                   textAlign: "justify",
-                  position: "absolute",
-                  zIndex: "999",
-                  top: "465px",
-                  left: "40px",
-                  color: "#FFFFFF",
-                  width: "85%",
-                  fontSize: "21px",
-                  margin: "5px auto",
+                  fontWeight: "600",
+                  fontSize: "30px",
                 }}
               >
-                <p
-                  style={{
-                    textAlign: "justify",
-                    fontWeight: "600",
-                    fontSize: "30px",
-                  }}
-                >
-                  Come on in !
-                </p>{" "}
+                Come on in !
+              </Card.Text>
+              <Card.Text>
                 All who want to be ranked in Search Engine/App Store & Play
                 Store
               </Card.Text>
+
               <Seoimage />
               <br />
               <div style={{ textAlign: "center" }}>
@@ -60,36 +60,37 @@ const IndexPage = () => (
               </div>
             </Card.Body>
           </Card>
-          <Card style={{ backgroundColor: "#FFFFFF", boxShadow: "0" }}>
+          <Card style={{ backgroundColor: "#FFFFFF", boxShadow:"0px 0px 0px 0px rgba(0,0,0,0)" }}>
             <Card.Body>
               <h1 style={{ marginTop: "5px" }}>Entrepreneurship</h1>
-              <Entraimage />
-              <br />
-              {/* <Card.Title as={"h2"}>Entraprenureship</Card.Title> */}
               <Card.Text
+                // style={{
+                //   textAlign: "justify",
+                //   position: "absolute",
+                //   zIndex: "999",
+                //   top: "465px",
+                //   left: "40px",
+                //   color: "#FFFFFF",
+                //   width: "85%",
+                //   fontSize: "21px",
+                //   margin: "5px auto",
+                // }}
                 style={{
                   textAlign: "justify",
-                  position: "absolute",
-                  zIndex: "999",
-                  top: "465px",
-                  left: "40px",
-                  color: "#FFFFFF",
-                  width: "85%",
-                  fontSize: "21px",
-                  margin: "5px auto",
+                  fontWeight: "600",
+                  fontSize: "30px",
                 }}
               >
-                <p
-                  style={{
-                    textAlign: "justify",
-                    fontWeight: "600",
-                    fontSize: "30px",
-                  }}
-                >
-                  Welcome board !
-                </p>
+                Welcome board !
+              </Card.Text>
+              <Card.Text>
                 All who are passionate to form a business of their own and earn
               </Card.Text>
+              <br/>
+              <Entraimage />
+              
+              {/* <Card.Title as={"h2"}>Entraprenureship</Card.Title> */}
+              <br />
               <div style={{ textAlign: "center" }}>
                 <Link to="/entraprenureship">
                   <div className="card-body gradient-buttons">

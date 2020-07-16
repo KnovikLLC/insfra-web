@@ -8,7 +8,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { useStaticQuery, graphql } from "gatsby";
-import { Row, Col } from "react-bootstrap";
+import { Row, Col,NavDropdown } from "react-bootstrap";
 import Header from "./homeHeader.js";
 import "./layout.css";
 import {Nav, Navbar } from "react-bootstrap";
@@ -51,48 +51,45 @@ const Layout = ({ children }) => {
       <footer>
         <div className="commonFooter">
           <Row>
-            <Col md={9}>
+            <Col md={7} sm={7}>
               <Navbar bg="dark" variant="dark" expand="lg">
                 <Navbar.Brand href="/"></Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                   <Nav className="mr-auto" style={{ fontSize: "20px" }}>
-                    <Nav.Link href="/">Home</Nav.Link>
-
-                    <Nav.Link style={{ marginLeft: "30px" }} href="/seo">
-                      SEO/ASO
+                  <Nav.Link style={{}} href="/about/">
+                      About Us
                     </Nav.Link>
-                    <Nav.Link style={{}} href="/entraprenureship/">
-                      Entrepreneurship
+                    <NavDropdown title="Our Services" id="basic-nav-dropdown">
+                      <NavDropdown.Item href="/seo"> SEO/ASO</NavDropdown.Item>
+                      <NavDropdown.Divider />
+                      <NavDropdown.Item href="/entraprenureship/">
+                        Entrepreneurship
+                      </NavDropdown.Item>
+                    </NavDropdown>
+                    <Nav.Link style={{}} href="/news/">
+                      News & Events
                     </Nav.Link>
                     <Nav.Link style={{}} href="/blog/">
                       Blog
                     </Nav.Link>
-                    <Nav.Link style={{}} href="/news/">
-                      News & Events
-                    </Nav.Link>
-                    <Nav.Link style={{}} href="/ourteam/">
-                      Our Team
-                    </Nav.Link>
+
                     <Nav.Link style={{}} href="/careers/">
                       Careers
                     </Nav.Link>
-                    <Nav.Link style={{}} href="/about/">
-                      About Us
-                    </Nav.Link>
+
                     <Nav.Link style={{}} href="/contact/">
                       Contact Us
                     </Nav.Link>
                   </Nav>
-                  {/* <Button href="/explore/" variant="success">
-        Explore Website
-      </Button> */}
+                
                 </Navbar.Collapse>
               </Navbar>
             </Col>
-
+            <Col md={2} sm={2}>
             <h5>Follow us</h5>
-            <Col style={{ marginTop: "15px" }}>
+            </Col>
+            <Col style={{ marginTop: "15px" }}  md={3} sm={3}>
               <a href="https://www.facebook.com/InsfraTechnologies/" alt="Facebook">
                 <img
                   src={FacebookLogo}

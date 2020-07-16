@@ -2,12 +2,7 @@ import React from "react";
 
 import { Calendar2, GeoAlt, Tag } from "react-bootstrap-icons";
 
-import {
-  Card,
-  
-  CardDeck,
-  
-} from "react-bootstrap";
+import { Card, CardDeck } from "react-bootstrap";
 import Layout from "../../components/layout";
 
 import SEO from "../../components/seo";
