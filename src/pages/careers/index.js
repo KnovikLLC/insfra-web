@@ -28,7 +28,7 @@ const CareersPage = () => (
           <Card>
             <Card.Img
               variant="top"
-              src="http://insfra.com/assets/img/WebDevelopment.png"
+              src="https://insfra.com/assets/img/WebDevelopment.png"
             />
             <Card.Body>
               <Card.Text>
@@ -48,7 +48,7 @@ const CareersPage = () => (
           <Card>
             <Card.Img
               variant="top"
-              src="http://insfra.com/assets/img/AppDevelopment.png"
+              src="https://insfra.com/assets/img/AppDevelopment.png"
             />
             <Card.Body>
               <Card.Text>
@@ -69,7 +69,7 @@ const CareersPage = () => (
           <Card>
             <Card.Img
               variant="top"
-              src="http://insfra.com/assets/img/WebDevelopment.png"
+              src="https://insfra.com/assets/img/WebDevelopment.png"
             />
             <Card.Body>
               <Card.Text>
@@ -89,7 +89,7 @@ const CareersPage = () => (
           <Card>
             <Card.Img
               variant="top"
-              src="http://insfra.com/assets/img/DigitalMarketing.png"
+              src="https://insfra.com/assets/img/DigitalMarketing.png"
             />
             <Card.Body>
               <Card.Text>
@@ -117,7 +117,7 @@ const CareersPage = () => (
                 <Card>
                   <Card.Img
                     variant="top"
-                    src="http://insfra.com/assets/img/DigitalMarketing.png"
+                    src="https://insfra.com/assets/img/DigitalMarketing.png"
                   />
                   <Card.Body>
                     <Card.Text>
@@ -148,7 +148,7 @@ const CareersPage = () => (
                 <Card>
                   <Card.Img
                     variant="top"
-                    src="http://insfra.com/assets/img/AppDevelopment.png"
+                    src="https://insfra.com/assets/img/AppDevelopment.png"
                   />
                   <Card.Body>
                     <Card.Text>
@@ -182,7 +182,7 @@ const CareersPage = () => (
                 <Card>
                   <Card.Img
                     variant="top"
-                    src="http://insfra.com/assets/img/WebDevelopment.png"
+                    src="https://insfra.com/assets/img/WebDevelopment.png"
                   />
                   <Card.Body>
                     <Card.Text>

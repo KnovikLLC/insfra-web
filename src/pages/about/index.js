@@ -182,7 +182,7 @@ const EntraprenureshipPage = (props) => (
         <div className="overflow">
           <Card.Img
             variant="top"
-            src="http://insfra.com/assets/img/team/suresh%20.jpg"
+            src="https://insfra.com/assets/img/team/suresh%20.jpg"
           />
         </div>
         <Card.Body>
