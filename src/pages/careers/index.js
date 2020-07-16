@@ -11,7 +11,7 @@ import {
   Row,
   Col,
   Container,
-  Image
+  Image,
 } from "react-bootstrap";
 import Layout from "../../components/layout";
 
@@ -208,10 +208,15 @@ const CareersPage = () => (
       </Tab>
       <Tab eventKey="uiux" title="UI/UX"></Tab>
     </Tabs>
-    
+
     <br />
     <br />
-    <Image src="https://infoworker.no/app/uploads/2019/08/Collaboration-768x468-1.png" alt="Team" width="100%" height="100%"/>
+    <Image
+      src="https://infoworker.no/app/uploads/2019/08/Collaboration-768x468-1.png"
+      alt="Team"
+      width="100%"
+      height="100%"
+    />
     <Container>
       <Row>
         <Col style={{ textAlign: "center" }} sm={6}>

@@ -34,10 +34,10 @@ const CareersPage = () => (
     <br />
     <Container>
       <Row>
-        <Col style={{ textAlign: "center"}} sm={6} md={6}>
-        <br />
-        <br />
-       
+        <Col style={{ textAlign: "center" }} sm={6} md={6}>
+          <br />
+          <br />
+
           <ListGroup>
             <ListGroup.Item>
               <span
@@ -99,8 +99,10 @@ const CareersPage = () => (
           </ListGroup>
         </Col>
         <Col sm={6} md={6}>
-         
-          <Image src="https://www.mspmbeed.com/sites/default/files/upload/contact-img.png" alt="Contact" />
+          <Image
+            src="https://www.mspmbeed.com/sites/default/files/upload/contact-img.png"
+            alt="Contact"
+          />
         </Col>
       </Row>
     </Container>
@@ -108,38 +110,36 @@ const CareersPage = () => (
     <br />
     <h2>Need a better response?</h2>
     <Form>
-            
-            <Form.Group controlId="formBasicEmail">
-              <Form.Label>Your Name</Form.Label>
-              <Form.Control type="text" placeholder="Enter Your Name" />
-            </Form.Group>
-            <Form.Group controlId="formGridState">
-              <Form.Label>Entrepreneurship Help</Form.Label>
-              <Form.Control as="select" defaultValue="Choose...">
-                <option>Choose...</option>
-                <option>SEO</option>
-                <option>ASO</option>
-                <option>Other Request</option>
-              </Form.Control>
-            </Form.Group>
-            <Form.Group controlId="formBasicEmail">
-              <Form.Label>Email address</Form.Label>
-              <Form.Control type="email" placeholder="Enter email" />
-              <Form.Text className="text-muted">
-                We'll never share your email with anyone else.
-              </Form.Text>
-            </Form.Group>
+      <Form.Group controlId="formBasicEmail">
+        <Form.Label>Your Name</Form.Label>
+        <Form.Control type="text" placeholder="Enter Your Name" />
+      </Form.Group>
+      <Form.Group controlId="formGridState">
+        <Form.Label>Entrepreneurship Help</Form.Label>
+        <Form.Control as="select" defaultValue="Choose...">
+          <option>Choose...</option>
+          <option>SEO</option>
+          <option>ASO</option>
+          <option>Other Request</option>
+        </Form.Control>
+      </Form.Group>
+      <Form.Group controlId="formBasicEmail">
+        <Form.Label>Email address</Form.Label>
+        <Form.Control type="email" placeholder="Enter email" />
+        <Form.Text className="text-muted">
+          We'll never share your email with anyone else.
+        </Form.Text>
+      </Form.Group>
 
-            <Form.Group controlId="formBasicPassword">
-              <Form.Label>Message</Form.Label>
-              <Form.Control type="text" placeholder="Message..." />
-            </Form.Group>
+      <Form.Group controlId="formBasicPassword">
+        <Form.Label>Message</Form.Label>
+        <Form.Control type="text" placeholder="Message..." />
+      </Form.Group>
 
-            <Button variant="primary" type="submit" >
-              Submit now
-            </Button>
-           
-          </Form>
+      <Button variant="primary" type="submit">
+        Submit now
+      </Button>
+    </Form>
     <br />
   </Layout>
 );

@@ -189,21 +189,18 @@ const EntraprenureshipPage = () => (
             local and international level.
           </Card.Text>
         </Col>
-
-       
-        
       </Row>
       <Row>
         <Col>
-        <br/>
-        <br/>
-        <p>
-          We are happy parents of newly born Priwoo and Kodex. The ones who took
-          the initiative to come to us with a new idea and became entrepreneurs
-          under our roof.
-        </p>
+          <br />
+          <br />
+          <p>
+            We are happy parents of newly born Priwoo and Kodex. The ones who
+            took the initiative to come to us with a new idea and became
+            entrepreneurs under our roof.
+          </p>
         </Col>
-        </Row>
+      </Row>
     </Container>
     <br />
     <h1>FAQs</h1>
