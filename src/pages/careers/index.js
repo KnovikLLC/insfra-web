@@ -11,6 +11,7 @@ import {
   Row,
   Col,
   Container,
+  Image
 } from "react-bootstrap";
 import Layout from "../../components/layout";
 
@@ -207,12 +208,13 @@ const CareersPage = () => (
       </Tab>
       <Tab eventKey="uiux" title="UI/UX"></Tab>
     </Tabs>
+    
     <br />
     <br />
-    <br />
+    <Image src="https://infoworker.no/app/uploads/2019/08/Collaboration-768x468-1.png" alt="Team" width="100%" height="100%"/>
     <Container>
       <Row>
-        <Col style={{ width: "50%", textAlign: "center" }}>
+        <Col style={{ textAlign: "center" }} sm={6}>
           <h1 style={{ textAlign: "center" }}>hello@insfra.com</h1>
 
           <p style={{ textAlign: "center" }}>
@@ -230,7 +232,7 @@ const CareersPage = () => (
             </button>
           </div>
         </Col>
-        <Col>
+        <Col sm={6}>
           <h1 style={{ textAlign: "center" }}>
             To make requests for further information, Do not hesitate to contact
             us.

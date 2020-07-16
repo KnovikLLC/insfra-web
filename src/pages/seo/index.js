@@ -32,6 +32,7 @@ import RankSEOASO from "../../components/images/seo/rankseoaso";
 import RankLocal from "../../components/images/seo/ranklocal";
 import SEOModel from "../seo/seoModel";
 import ASOModel from "../seo/asoModel";
+import FAQ from "../seo/faq";
 import SEOASOConsult from "./seo-aso-consultancyModel";
 import LocalSEO from "./localSEOModel";
 
@@ -109,7 +110,6 @@ const SeoPage = () => (
     <br />
     <br />
     <br />
-    
     <h2>Small & Medium Business Solutions</h2>
     <CardDeck>
       <Card>
@@ -265,96 +265,94 @@ const SeoPage = () => (
     <br />
     <br />
     <br />
-    <CardDeck>
-      <h2>Why Choose Us?</h2>
+    <h2>Why Choose Us?</h2>
+    <Container>
+      <Row>
+        <Col>
+         
 
-      <p style={{ textAlign: "justify" }}>
-        {" "}
-        We believe in conversions more than the impressions. Therefore, we
-        analyze customers, their search intent, psychological needs and their
-        search behaviors and do optimization in Search Engines, AppStore and
-        PlayStore, Social Media while ensuring that your brands are reached to
-        the right audience though sales funnel strategies.
-      </p>
-
-      <CardDeck>
-        <Card>
+          <p style={{ textAlign: "justify" }}>
+            {" "}
+            We believe in conversions more than the impressions. Therefore, we
+            analyze customers, their search intent, psychological needs and
+            their search behaviors and do optimization in Search Engines,
+            AppStore and PlayStore, Social Media while ensuring that your brands
+            are reached to the right audience though sales funnel strategies.
+          </p>
+        </Col>
+      </Row>
+      <Row>
+        <Col>
           <Experience />
-          <Card.Body>
-            <Card.Title>10+ Experience</Card.Title>
-            <Card.Text>
-              Insfra has worked with many customers around the world for 11
-              years.
-            </Card.Text>
-          </Card.Body>
-        </Card>
-        <Card>
+
+          <Card.Title>10+ Experience</Card.Title>
+          <Card.Text>
+            Insfra has worked with many customers around the world for 11 years.
+          </Card.Text>
+        </Col>
+        <Col>
           <SEOExpertise />
-          <Card.Body>
-            <Card.Title>SEO Expertise</Card.Title>
-            <Card.Text>
-              We will bring you to the top of the search results and increase
-              web traffic{" "}
-            </Card.Text>
-          </Card.Body>
-        </Card>
-        <Card>
+
+          <Card.Title>SEO Expertise</Card.Title>
+          <Card.Text>
+            We will bring you to the top of the search results and increase web
+            traffic{" "}
+          </Card.Text>
+        </Col>
+        <Col>
           <ASOExpertise />
-          <Card.Body>
-            <Card.Title>ASO Expertise</Card.Title>
-            <Card.Text>
-              We will make your app be among the most downloaded apps in App
-              Store
-            </Card.Text>
-          </Card.Body>
-        </Card>
-        <Card>
+
+          <Card.Title>ASO Expertise</Card.Title>
+          <Card.Text>
+            We will make your app be among the most downloaded apps in App Store
+          </Card.Text>
+        </Col>
+        <Col>
           <ProvenTrackRecord />
-          <Card.Body>
-            <Card.Title>Proven Track Record</Card.Title>
-            <Card.Text>
-              Each member holds expertise in their area. Friendly, Professional
-              and Dynamic
-            </Card.Text>
-          </Card.Body>
-        </Card>
-      </CardDeck>
-    </CardDeck>
+
+          <Card.Title>Proven Track Record</Card.Title>
+          <Card.Text>
+            Each member holds expertise in their area. Friendly, Professional
+            and Dynamic
+          </Card.Text>
+        </Col>
+      </Row>
+    </Container>
     <br />
     <br />
     <br />
     <br />
     <h2>Top Articles from SEO/ASO blog</h2>
-    <CardDeck>
-      <CardDeck>
-        <Card>
+    <Container>
+    <Row>
+        <Col sm={4}>
           <Card.Img
             variant="top"
             src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22675%22%20height%3D%22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20675%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_17293681466%20text%20%7B%20fill%3A%23999%3Bfont-weight%3Anormal%3Bfont-family%3A-apple-system%2CBlinkMacSystemFont%2C%26quot%3BSegoe%20UI%26quot%3B%2CRoboto%2C%26quot%3BHelvetica%20Neue%26quot%3B%2CArial%2C%26quot%3BNoto%20Sans%26quot%3B%2Csans-serif%2C%26quot%3BApple%20Color%20Emoji%26quot%3B%2C%26quot%3BSegoe%20UI%20Emoji%26quot%3B%2C%26quot%3BSegoe%20UI%20Symbol%26quot%3B%2C%26quot%3BNoto%20Color%20Emoji%26quot%3B%2C%20monospace%3Bfont-size%3A34pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_17293681466%22%3E%3Crect%20width%3D%22675%22%20height%3D%22180%22%20fill%3D%22%23373940%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22250.5390625%22%20y%3D%22105.30000000000001%22%3E675x180%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
           />
-          <Card.Body>
+         
             <Card.Title>Article 1</Card.Title>
             <Card.Text>
               This is a wider card with supporting text below as a natural
               lead-in to additional content. This content is a little bit
               longer.
             </Card.Text>
-          </Card.Body>
-        </Card>
-        <Card>
+         
+        </Col>
+        <Col sm={4}>
           <Card.Img
             variant="top"
             src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22675%22%20height%3D%22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20675%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_17293681466%20text%20%7B%20fill%3A%23999%3Bfont-weight%3Anormal%3Bfont-family%3A-apple-system%2CBlinkMacSystemFont%2C%26quot%3BSegoe%20UI%26quot%3B%2CRoboto%2C%26quot%3BHelvetica%20Neue%26quot%3B%2CArial%2C%26quot%3BNoto%20Sans%26quot%3B%2Csans-serif%2C%26quot%3BApple%20Color%20Emoji%26quot%3B%2C%26quot%3BSegoe%20UI%20Emoji%26quot%3B%2C%26quot%3BSegoe%20UI%20Symbol%26quot%3B%2C%26quot%3BNoto%20Color%20Emoji%26quot%3B%2C%20monospace%3Bfont-size%3A34pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_17293681466%22%3E%3Crect%20width%3D%22675%22%20height%3D%22180%22%20fill%3D%22%23373940%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22250.5390625%22%20y%3D%22105.30000000000001%22%3E675x180%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
           />
-          <Card.Body>
+          
             <Card.Title>Article 2</Card.Title>
             <Card.Text>
               This card has supporting text below as a natural lead-in to
               additional content.{" "}
             </Card.Text>
-          </Card.Body>
-        </Card>
-        <Card>
+         
+        </Col>
+        <Col sm={4}>
           <Card.Img
             variant="top"
             src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22675%22%20height%3D%22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20675%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_17293681466%20text%20%7B%20fill%3A%23999%3Bfont-weight%3Anormal%3Bfont-family%3A-apple-system%2CBlinkMacSystemFont%2C%26quot%3BSegoe%20UI%26quot%3B%2CRoboto%2C%26quot%3BHelvetica%20Neue%26quot%3B%2CArial%2C%26quot%3BNoto%20Sans%26quot%3B%2Csans-serif%2C%26quot%3BApple%20Color%20Emoji%26quot%3B%2C%26quot%3BSegoe%20UI%20Emoji%26quot%3B%2C%26quot%3BSegoe%20UI%20Symbol%26quot%3B%2C%26quot%3BNoto%20Color%20Emoji%26quot%3B%2C%20monospace%3Bfont-size%3A34pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_17293681466%22%3E%3Crect%20width%3D%22675%22%20height%3D%22180%22%20fill%3D%22%23373940%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22250.5390625%22%20y%3D%22105.30000000000001%22%3E675x180%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
@@ -366,129 +364,15 @@ const SeoPage = () => (
               additional content.{" "}
             </Card.Text>
           </Card.Body>
-        </Card>
-      </CardDeck>
-    </CardDeck>
+          </Col>
+        </Row>
+      </Container>
     <br />
     <br />
     <br />
     <br />
     <h2>FAQs</h2>
-    <Accordion defaultActiveKey="0">
-   
-    <Card>
-           <Accordion.Toggle
-          as={Button}
-          eventKey="0"
-          style={{
-            backgroundColor: "#FDFDFE",
-            color: "#000000",
-            borderColor: "#FDFDFE",
-            textAlign: "left",
-          }}
-        >
-          What is SEO?
-        </Accordion.Toggle>
-
-        <Accordion.Collapse eventKey="0">
-          <Card.Body>
-            SEO is the process of growing the quality and the quantity of web
-            traffic by increasing the visibility of a website/web page of a web
-            search engine. This mainly involves helping a website/page getting
-            at the top of the search engine results page.
-          </Card.Body>
-        </Accordion.Collapse>
-      </Card>
-
-      <Card className="none">
-        <Accordion.Toggle
-          as={Button}
-          eventKey="1"
-          style={{
-            backgroundColor: "#FDFDFE",
-            color: "#000000",
-            borderColor: "#FDFDFE",
-            textAlign: "left",
-          }}
-        >
-          What is ASO?
-        </Accordion.Toggle>
-        <Accordion.Collapse eventKey="1">
-          <Card.Body>
-            ASO is the process of increasing the visibility of a mobile
-            application in the App Store/Play Store environment. This involves
-            helping the app get ranked in the App search in the store.
-          </Card.Body>
-        </Accordion.Collapse>
-      </Card>
-
-      <Card>
-        <Accordion.Toggle
-          as={Button}
-          eventKey="2"
-          style={{
-            backgroundColor: "#FDFDFE",
-            color: "#000000",
-            borderColor: "#FDFDFE",
-            textAlign: "left",
-          }}
-        >
-          Can we optimize in the Play Store only?
-        </Accordion.Toggle>
-        <Accordion.Collapse eventKey="2">
-          <Card.Body>
-            Yes. you may get only the Play Store optimization if you wish to.
-            You will not be charged for the whole ASO optimization package as
-            you only request for Play Store Optimization
-          </Card.Body>
-        </Accordion.Collapse>
-      </Card>
-
-      <Card>
-        <Accordion.Toggle
-          as={Button}
-          eventKey="3"
-          style={{
-            backgroundColor: "#FDFDFE",
-            color: "#000000",
-            borderColor: "#FDFDFE",
-            textAlign: "left",
-          }}
-        >
-          Can we optimize in the App Store only?
-        </Accordion.Toggle>
-        <Accordion.Collapse eventKey="3">
-          <Card.Body>
-            {" "}
-            Yes. you may get only the App Store optimization if you wish to. You
-            will not be charged for the whole ASO optimization package as you
-            only request for App Store Optimization
-          </Card.Body>
-        </Accordion.Collapse>
-      </Card>
-
-      <Card>
-        <Accordion.Toggle
-          as={Button}
-          eventKey="4"
-          style={{
-            backgroundColor: "#FDFDFE",
-            color: "#000000",
-            borderColor: "#FDFDFE",
-            textAlign: "left",
-          }}
-        >
-          Do you offer a flat rate for SEO?
-        </Accordion.Toggle>
-        <Accordion.Collapse eventKey="4">
-          <Card.Body>
-            {" "}
-            Yes. we do depending on the project. Reach us via hello@insfra.com
-            to check your project’s eligibility.
-          </Card.Body>
-        </Accordion.Collapse>
-      </Card>
-    </Accordion>
+    <FAQ />
   </Layout>
 );
 

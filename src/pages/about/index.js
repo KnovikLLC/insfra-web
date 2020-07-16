@@ -15,28 +15,11 @@ const EntraprenureshipPage = (props) => (
   <Layout>
     <SEO title="Home" />
     <h1>About Insfra</h1>
-
+    <br />
+    <h2>Preparing for your success, we find pleasure giving the solutions.</h2>
+    <br />
     <Container>
-      <br />
-      <h2>
-        Preparing for your success, we find pleasure giving the solutions.
-      </h2>
-      <br />
       <Row>
-        <Col sm={6}>
-          <Card.Text style={{ textAlign: "justify" }}>
-            Our passion over inspiring both businesses’ and individuals’ lives
-            with the advancement of technological environment is what has driven
-            us to who we are today. We put our IT expertise and excellence into
-            practicality so as to fit into our clients’ equirements thereby we
-            find pleasure in doing our business.
-          </Card.Text>
-          <Card.Text>
-            We help transform the world's most important businesses into
-            vigorous, agile organizations that anticipate the agile
-            unpredictable.
-          </Card.Text>
-        </Col>
         <Col sm={6}>
           <iframe
             src="https://www.youtube.com/embed/lBgTLAuafqQ"
@@ -46,6 +29,20 @@ const EntraprenureshipPage = (props) => (
             height="300px"
             allowFullScreen
           ></iframe>
+        </Col>
+        <Col sm={6}>
+          <p style={{ textAlign: "justify" }}>
+            Our passion over inspiring both businesses’ and individuals’ lives
+            with the advancement of technological environment is what has driven
+            us to who we are today. We put our IT expertise and excellence into
+            practicality so as to fit into our clients’ equirements thereby we
+            find pleasure in doing our business.
+          </p>
+          <p style={{ textAlign: "justify" }}>
+            We help transform the world's most important businesses into
+            vigorous, agile organizations that anticipate the agile
+            unpredictable.
+          </p>
         </Col>
       </Row>
     </Container>
@@ -361,6 +358,8 @@ const EntraprenureshipPage = (props) => (
     </CardDeck>
     <br />
     <br />
+    <br />
+    <br />
 
     <h2>Our Vision & Mission</h2>
 
@@ -485,57 +484,57 @@ const EntraprenureshipPage = (props) => (
 
     <br />
     <br />
+    <br />
+    <br />
+
     <h2>Check where Insfra is located at.</h2>
-    <CardDeck>
-      <br />
+    <Container>
+      <Row>
+        <Col sm={4}>
+          <Card.Title>Badulla</Card.Title>
+          <Card.Text>
+            Insfra Head office is located at Bandarawela Rd, Badulla. In the
+            head office of Insfra we have to seperate departments as
+            Administration and Marketing.
+          </Card.Text>
 
-      <CardDeck>
-        <Card>
-          <Card.Body>
-            <Card.Title>Badulla</Card.Title>
-            <Card.Text>
-              Insfra Head office is located at Bandarawela Rd, Badulla. In the
-              head office of Insfra we have to seperate departments as
-              Administration and Marketing.
-            </Card.Text>
-            <Card.Img
-              variant="top"
-              src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22286%22%20height%3D%22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20286%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_17292fffbf2%20text%20%7B%20fill%3A%23999%3Bfont-weight%3Anormal%3Bfont-family%3A-apple-system%2CBlinkMacSystemFont%2C%26quot%3BSegoe%20UI%26quot%3B%2CRoboto%2C%26quot%3BHelvetica%20Neue%26quot%3B%2CArial%2C%26quot%3BNoto%20Sans%26quot%3B%2Csans-serif%2C%26quot%3BApple%20Color%20Emoji%26quot%3B%2C%26quot%3BSegoe%20UI%20Emoji%26quot%3B%2C%26quot%3BSegoe%20UI%20Symbol%26quot%3B%2C%26quot%3BNoto%20Color%20Emoji%26quot%3B%2C%20monospace%3Bfont-size%3A14pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_17292fffbf2%22%3E%3Crect%20width%3D%22286%22%20height%3D%22180%22%20fill%3D%22%23373940%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22106.390625%22%20y%3D%2296.3%22%3E286x180%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
-            />
-          </Card.Body>
-        </Card>
-        <Card>
-          <Card.Body>
-            <Card.Title>Nugegoda</Card.Title>
-            <Card.Text>
-              Engineering and Research and Development Department of Insfra is
-              located at Gangodawila, Nugegoda. There we have the main
-              Engineering Department of Insfra.
-            </Card.Text>
-          </Card.Body>
           <Card.Img
             variant="top"
             src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22286%22%20height%3D%22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20286%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_17292fffbf2%20text%20%7B%20fill%3A%23999%3Bfont-weight%3Anormal%3Bfont-family%3A-apple-system%2CBlinkMacSystemFont%2C%26quot%3BSegoe%20UI%26quot%3B%2CRoboto%2C%26quot%3BHelvetica%20Neue%26quot%3B%2CArial%2C%26quot%3BNoto%20Sans%26quot%3B%2Csans-serif%2C%26quot%3BApple%20Color%20Emoji%26quot%3B%2C%26quot%3BSegoe%20UI%20Emoji%26quot%3B%2C%26quot%3BSegoe%20UI%20Symbol%26quot%3B%2C%26quot%3BNoto%20Color%20Emoji%26quot%3B%2C%20monospace%3Bfont-size%3A14pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_17292fffbf2%22%3E%3Crect%20width%3D%22286%22%20height%3D%22180%22%20fill%3D%22%23373940%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22106.390625%22%20y%3D%2296.3%22%3E286x180%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
           />
-        </Card>
-        <Card>
-          <Card.Body>
-            <Card.Title>Maharagama</Card.Title>
-            <Card.Text>
-              Marketing and Administration Support Team is located at Maharagama
-              and they closely work with Marketing Department at Head Office
-              while suporting customers.
-            </Card.Text>
-          </Card.Body>
+        </Col>
+        <Col sm={4}>
+          <Card.Title>Nugegoda</Card.Title>
+          <Card.Text>
+            Engineering and Research and Development Department of Insfra is
+            located at Gangodawila, Nugegoda. We have main Engineering
+            Department of Insfra.
+          </Card.Text>
+
           <Card.Img
             variant="top"
             src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22286%22%20height%3D%22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20286%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_17292fffbf2%20text%20%7B%20fill%3A%23999%3Bfont-weight%3Anormal%3Bfont-family%3A-apple-system%2CBlinkMacSystemFont%2C%26quot%3BSegoe%20UI%26quot%3B%2CRoboto%2C%26quot%3BHelvetica%20Neue%26quot%3B%2CArial%2C%26quot%3BNoto%20Sans%26quot%3B%2Csans-serif%2C%26quot%3BApple%20Color%20Emoji%26quot%3B%2C%26quot%3BSegoe%20UI%20Emoji%26quot%3B%2C%26quot%3BSegoe%20UI%20Symbol%26quot%3B%2C%26quot%3BNoto%20Color%20Emoji%26quot%3B%2C%20monospace%3Bfont-size%3A14pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_17292fffbf2%22%3E%3Crect%20width%3D%22286%22%20height%3D%22180%22%20fill%3D%22%23373940%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22106.390625%22%20y%3D%2296.3%22%3E286x180%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
           />
-        </Card>
-      </CardDeck>
-      <br />
-    </CardDeck>
+        </Col>
+        <Col sm={4}>
+          <Card.Title>Maharagama</Card.Title>
+          <Card.Text>
+            Marketing and Administration Support Team is located at Maharagama
+            and they closely work with Marketing Department at Head Office while
+            suporting customers who work with Insfra.
+          </Card.Text>
 
+          <Card.Img
+            variant="top"
+            src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22286%22%20height%3D%22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20286%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_17292fffbf2%20text%20%7B%20fill%3A%23999%3Bfont-weight%3Anormal%3Bfont-family%3A-apple-system%2CBlinkMacSystemFont%2C%26quot%3BSegoe%20UI%26quot%3B%2CRoboto%2C%26quot%3BHelvetica%20Neue%26quot%3B%2CArial%2C%26quot%3BNoto%20Sans%26quot%3B%2Csans-serif%2C%26quot%3BApple%20Color%20Emoji%26quot%3B%2C%26quot%3BSegoe%20UI%20Emoji%26quot%3B%2C%26quot%3BSegoe%20UI%20Symbol%26quot%3B%2C%26quot%3BNoto%20Color%20Emoji%26quot%3B%2C%20monospace%3Bfont-size%3A14pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_17292fffbf2%22%3E%3Crect%20width%3D%22286%22%20height%3D%22180%22%20fill%3D%22%23373940%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22106.390625%22%20y%3D%2296.3%22%3E286x180%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+          />
+        </Col>
+      </Row>
+    </Container>
+<br/>
+<br/>
+<br/>
+<br/>
     <Container>
       <Row>
         <Col style={{ width: "50%", textAlign: "center" }}>
@@ -564,6 +563,9 @@ const EntraprenureshipPage = (props) => (
         </Col>
       </Row>
     </Container>
+ 
+<br/>
+<br/>
   </Layout>
 );
 
