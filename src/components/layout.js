@@ -5,20 +5,18 @@
  * See: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
-import React from "react"
-import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
-import {Row,Col, Nav, Navbar} from "react-bootstrap"
+import React from "react";
+import PropTypes from "prop-types";
+import { useStaticQuery, graphql } from "gatsby";
+import { Row, Col, Nav, Navbar, NavDropdown } from "react-bootstrap";
 
-import Header from "./header"
-import "./layout.css"
+import Header from "./header";
+import "./layout.css";
 import FacebookLogo from "../images/social/facebook.png";
 import InstagramLogo from "../images/social/instagram.png";
 import PinterestLogo from "../images/social/pinterest.png";
 import TwitterLogo from "../images/social/twitter.png";
 import YoutubeLogo from "../images/social/youtube.png";
-
-
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -29,12 +27,12 @@ const Layout = ({ children }) => {
         }
       }
     }
-  `)
+  `);
 
   return (
     <>
       <Header siteTitle={data.site.siteMetadata.title} />
-      
+
       <div
         style={{
           margin: `0 auto`,
@@ -58,42 +56,37 @@ const Layout = ({ children }) => {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                   <Nav className="mr-auto" style={{ fontSize: "20px" }}>
-                    <Nav.Link href="/">Home</Nav.Link>
-
-                    <Nav.Link style={{ marginLeft: "30px" }} href="/seo">
-                      SEO/ASO
+                    <Nav.Link style={{}} href="/about/">
+                      About Us
                     </Nav.Link>
-                    <Nav.Link style={{}} href="/entraprenureship/">
-                      Entrepreneurship
+                    <NavDropdown title="Our Services" id="basic-nav-dropdown">
+                      <NavDropdown.Item href="/seo"> SEO/ASO</NavDropdown.Item>
+                      <NavDropdown.Divider />
+                      <NavDropdown.Item href="/entraprenureship/">
+                        Entrepreneurship
+                      </NavDropdown.Item>
+                    </NavDropdown>
+                    <Nav.Link style={{}} href="/news/">
+                      News & Events
                     </Nav.Link>
                     <Nav.Link style={{}} href="/blog/">
                       Blog
                     </Nav.Link>
-                    <Nav.Link style={{}} href="/news/">
-                      News & Events
-                    </Nav.Link>
-                    <Nav.Link style={{}} href="/ourteam/">
-                      Our Team
-                    </Nav.Link>
+
                     <Nav.Link style={{}} href="/careers/">
                       Careers
                     </Nav.Link>
-                    <Nav.Link style={{}} href="/about/">
-                      About Us
-                    </Nav.Link>
+
                     <Nav.Link style={{}} href="/contact/">
                       Contact Us
                     </Nav.Link>
                   </Nav>
-                  {/* <Button href="/explore/" variant="success">
-        Explore Website
-      </Button> */}
                 </Navbar.Collapse>
               </Navbar>
             </Col>
-
-            <h5>Follow us</h5>
             <Col style={{ marginTop: "15px" }}>
+            <h5>Follow us</h5>
+           
               <a href="https://www.facebook.com/InsfraTechnologies/">
                 <img
                   src={FacebookLogo}
@@ -139,11 +132,11 @@ const Layout = ({ children }) => {
         </div>
       </footer>
     </>
-  )
-}
+  );
+};
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
-}
+};
 
-export default Layout
+export default Layout;

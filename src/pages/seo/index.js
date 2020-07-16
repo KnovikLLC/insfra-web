@@ -10,12 +10,11 @@ import {
   CardDeck,
   Carousel,
   Accordion,
+  Container,
 } from "react-bootstrap";
-//import LayoutPage from "../../components/layoutpages";
+
 import Layout from "../../components/layout";
-
 import SEO from "../../components/seo";
-
 import One from "../../components/images/seo/1";
 import Two from "../../components/images/seo/2";
 import Three from "../../components/images/seo/3";
@@ -23,7 +22,6 @@ import Experience from "../../components/images/seo/experience";
 import SEOExpertise from "../../components/images/seo/SEOexpertise";
 import ASOExpertise from "../../components/images/seo/ASOexpertise";
 import ProvenTrackRecord from "../../components/images/seo/provenTrackRecord";
-
 import SEOCard from "../../components/images/seo/SEOservice";
 import ASOCard from "../../components/images/seo/ASOservice";
 import SEOASOCard from "../../components/images/seo/SEOASOservice";
@@ -32,7 +30,6 @@ import RankSEO from "../../components/images/seo/rankseo";
 import RankASO from "../../components/images/seo/rankaso";
 import RankSEOASO from "../../components/images/seo/rankseoaso";
 import RankLocal from "../../components/images/seo/ranklocal";
-
 import SEOModel from "../seo/seoModel";
 import ASOModel from "../seo/asoModel";
 import SEOASOConsult from "./seo-aso-consultancyModel";
@@ -66,16 +63,15 @@ const SeoPage = () => (
       the website/pages ranked in searches and convert for sales
     </p>
     <br />
-    <CardDeck>
-      <Card>
-        <Card.Body>
-          <Card.Title>
-            <h2>Search Engine Optimization</h2>
-          </Card.Title>
+    <br />
+    <br />
+    <br />
+    <Container>
+      <Row>
+        <Col sm={6}>
+          <h2>Search Engine Optimization</h2>
 
           <iframe
-            // width="791"
-            // height="445"
             src="https://www.youtube.com/embed/WP8fv5HcN4U"
             frameBorder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -83,19 +79,14 @@ const SeoPage = () => (
             height="300px"
             allowFullScreen
           ></iframe>
-          <Card.Text style={{ textAlign: "justify" }}>
+          <p style={{ textAlign: "justify" }}>
             We will make your website, blog, product or service ranked in online
             environments. Therefore it reaches a broad audience in your
             segmented market and increases conversions.
-          </Card.Text>
-        </Card.Body>
-      </Card>
-      <Card>
-        <Card.Body>
-          <Card.Title>
-            <h2>App Store Optimization</h2>{" "}
-          </Card.Title>
-
+          </p>
+        </Col>
+        <Col sm={6}>
+          <h2>App Store Optimization</h2>{" "}
           <iframe
             // width="791"
             // height="445"
@@ -106,17 +97,19 @@ const SeoPage = () => (
             height="300px"
             allowFullScreen
           ></iframe>
-          <Card.Text style={{ textAlign: "justify" }}>
+          <p style={{ textAlign: "justify" }}>
             We will naturally get your app to the most downloaded app list of
             App Store and PlayStore through App Store Optimization with which
             most customers convert for sales
-          </Card.Text>
-        </Card.Body>
-      </Card>
-    </CardDeck>
+          </p>
+        </Col>
+      </Row>
+    </Container>
     <br />
     <br />
     <br />
+    <br />
+    
     <h2>Small & Medium Business Solutions</h2>
     <CardDeck>
       <Card>
@@ -270,6 +263,8 @@ const SeoPage = () => (
     </CardDeck>
     <br />
     <br />
+    <br />
+    <br />
     <CardDeck>
       <h2>Why Choose Us?</h2>
 
@@ -327,6 +322,8 @@ const SeoPage = () => (
     </CardDeck>
     <br />
     <br />
+    <br />
+    <br />
     <h2>Top Articles from SEO/ASO blog</h2>
     <CardDeck>
       <CardDeck>
@@ -374,10 +371,13 @@ const SeoPage = () => (
     </CardDeck>
     <br />
     <br />
+    <br />
+    <br />
     <h2>FAQs</h2>
     <Accordion defaultActiveKey="0">
-      <Card>
-        <Accordion.Toggle
+   
+    <Card>
+           <Accordion.Toggle
           as={Button}
           eventKey="0"
           style={{
@@ -400,7 +400,7 @@ const SeoPage = () => (
         </Accordion.Collapse>
       </Card>
 
-      <Card>
+      <Card className="none">
         <Accordion.Toggle
           as={Button}
           eventKey="1"
