@@ -280,7 +280,7 @@ const SeoPage = () => (
         </Col>
       </Row>
       <Row>
-        <Col>
+        <Col sm={3}>
           <Experience />
 
           <Card.Title>10+ Experience</Card.Title>
@@ -288,7 +288,7 @@ const SeoPage = () => (
             Insfra has worked with many customers around the world for 11 years.
           </Card.Text>
         </Col>
-        <Col>
+        <Col sm={3}>
           <SEOExpertise />
 
           <Card.Title>SEO Expertise</Card.Title>
@@ -297,7 +297,7 @@ const SeoPage = () => (
             traffic{" "}
           </Card.Text>
         </Col>
-        <Col>
+        <Col sm={3}>
           <ASOExpertise />
 
           <Card.Title>ASO Expertise</Card.Title>
@@ -305,7 +305,7 @@ const SeoPage = () => (
             We will make your app be among the most downloaded apps in App Store
           </Card.Text>
         </Col>
-        <Col>
+        <Col sm={3}>
           <ProvenTrackRecord />
 
           <Card.Title>Proven Track Record</Card.Title>
